@@ -1,0 +1,76 @@
+{
+  "k8s": "kubernetes kubectl",
+  "k": "kubectl",
+  "pods": "pod",
+  "cert": "certificate tls pki",
+  "disk usage": "df du filesystem storage",
+  "listening ports": "ss lsof netstat",
+  "socket": "ss connection",
+  "pod crash": "crashloopbackoff logs previous describe events",
+  "image scan": "trivy grype syft",
+  "cost": "finops opencost infracost",
+  "gpu": "nvidia cuda dcgm",
+  "dns": "dig resolvectl bind",
+  "service fail": "systemctl journalctl",
+  "memory leak": "rss pmap smaps",
+  "network latency": "mtr ping iperf3 tcpdump",
+  "windows net": "Get-NetTCPConnection Test-NetConnection Resolve-DnsName",
+  "mac service": "launchctl",
+  "mq": "rabbitmq pulsar mqtt kafka",
+  "mqtt": "mosquitto",
+  "trace search": "tempo traceql",
+  "cilium flows": "hubble observe",
+  "csv": "csvkit miller xsv",
+  "jvm thread dump": "jstack jcmd Thread.print",
+  "jvm heap": "jmap jcmd GC.heap_info",
+  "cuda profile": "ncu nsight compute",
+  "benchmark": "sysbench stress-ng",
+  "file watch": "inotifywait entr",
+  "oci cloud": "oracle cloud infrastructure",
+  "datadisk": [
+    "platform matrix",
+    "unix comparison",
+    "enterprise unix",
+    "cross-platform"
+  ],
+  "ontap": [
+    "netapp",
+    "cluster mode",
+    "cdot",
+    "storage array"
+  ],
+  "aix lvm": [
+    "lsvg",
+    "lspv",
+    "lslv",
+    "jfs2"
+  ],
+  "solaris zones": [
+    "zoneadm",
+    "zonecfg",
+    "zlogin",
+    "zonestat"
+  ],
+  "hpux": [
+    "hp-ux",
+    "ioscan",
+    "vgdisplay",
+    "swlist"
+  ],
+  "esxi": [
+    "vmware",
+    "esxcli",
+    "vim-cmd"
+  ],
+  "san": [
+    "fibre channel",
+    "fc_host",
+    "multipath",
+    "lsscsi"
+  ],
+  "iscsi": [
+    "iscsiadm",
+    "open-iscsi",
+    "multipath"
+  ]
+}

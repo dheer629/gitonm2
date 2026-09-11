@@ -1,0 +1,2017 @@
+[
+  {
+    "name": "Kubernetes kubectl Reference",
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/",
+    "scope": "kubectl command families and generated command reference"
+  },
+  {
+    "name": "Kubernetes crictl Debugging",
+    "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/",
+    "scope": "CRI runtime inspection and debugging"
+  },
+  {
+    "name": "Flux CLI",
+    "url": "https://fluxcd.io/flux/cmd/",
+    "scope": "Flux CLI command hierarchy"
+  },
+  {
+    "name": "Argo CD CLI Reference",
+    "url": "https://argo-cd.readthedocs.io/en/release-3.4/user-guide/commands/argocd/",
+    "scope": "argocd command hierarchy and operations"
+  },
+  {
+    "name": "Calico calicoctl Reference",
+    "url": "https://docs.tigera.io/calico/latest/reference/calicoctl/overview",
+    "scope": "Calico policy, IPAM, node and cluster commands"
+  },
+  {
+    "name": "Cilium Command Reference",
+    "url": "https://docs.cilium.io/en/stable/cmdref/",
+    "scope": "Cilium CLI, cilium-dbg and datapath command families"
+  },
+  {
+    "name": "Istio istioctl Reference",
+    "url": "https://istio.io/latest/docs/reference/commands/istioctl/",
+    "scope": "Istio analysis, proxy, manifest and mesh commands"
+  },
+  {
+    "name": "Linkerd CLI Reference",
+    "url": "https://linkerd.io/docs/reference/cli/",
+    "scope": "Linkerd install, check, diagnostics, viz and multicluster"
+  },
+  {
+    "name": "Docker CLI Reference",
+    "url": "https://docs.docker.com/reference/cli/docker/",
+    "scope": "Docker object-management command hierarchy"
+  },
+  {
+    "name": "Terraform CLI",
+    "url": "https://developer.hashicorp.com/terraform/cli/commands",
+    "scope": "Terraform workflow and advanced CLI commands"
+  },
+  {
+    "name": "Trivy CLI",
+    "url": "https://trivy.dev/docs/latest/guide/references/configuration/cli/trivy/",
+    "scope": "Container, filesystem and configuration scanning"
+  },
+  {
+    "name": "Kyverno CLI",
+    "url": "https://kyverno.io/docs/subprojects/kyverno-cli/",
+    "scope": "Policy testing and validation"
+  },
+  {
+    "name": "SOPS Documentation",
+    "url": "https://getsops.io/docs/",
+    "scope": "Secret encryption/decryption workflows"
+  },
+  {
+    "name": "Prometheus promtool",
+    "url": "https://prometheus.io/docs/prometheus/2.55/command-line/promtool/",
+    "scope": "Prometheus validation, query, debug and TSDB commands"
+  },
+  {
+    "name": "Grafana Loki LogCLI",
+    "url": "https://grafana.com/docs/loki/latest/query/logcli/",
+    "scope": "Loki query and log retrieval"
+  },
+  {
+    "name": "RKE2 Quick Start",
+    "url": "https://docs.rke2.io/install/quickstart",
+    "scope": "RKE2 server/agent, bundled tools, cleanup scripts"
+  },
+  {
+    "name": "Git Reference",
+    "url": "https://git-scm.com/docs",
+    "scope": "Git repository, history, branch and recovery operations"
+  },
+  {
+    "name": "yq Operators",
+    "url": "https://mikefarah.gitbook.io/yq/operators",
+    "scope": "YAML querying and transformation operators"
+  },
+  {
+    "name": "jq Manual",
+    "url": "https://jqlang.org/manual/",
+    "scope": "JSON querying and transformation"
+  },
+  {
+    "name": "Helm CLI",
+    "url": "https://helm.sh/docs/helm/",
+    "scope": "Helm package manager command reference"
+  },
+  {
+    "name": "Velero CLI",
+    "url": "https://velero.io/docs/main/basic-install/",
+    "scope": "Backup, restore, schedules and disaster recovery"
+  },
+  {
+    "name": "Sealed Secrets",
+    "url": "https://github.com/bitnami/sealed-secrets",
+    "scope": "kubeseal encryption and certificate workflows"
+  },
+  {
+    "name": "Sigstore Cosign",
+    "url": "https://docs.sigstore.dev/cosign/overview/",
+    "scope": "Container signing, verification, attestations and keys"
+  },
+  {
+    "name": "Skopeo",
+    "url": "https://github.com/containers/skopeo",
+    "scope": "Remote image inspection and registry copy"
+  },
+  {
+    "name": "ORAS",
+    "url": "https://oras.land/docs/commands/",
+    "scope": "OCI artifact registry operations"
+  },
+  {
+    "name": "HashiCorp Vault CLI",
+    "url": "https://developer.hashicorp.com/vault/docs/commands",
+    "scope": "Secrets engine, auth and operational commands"
+  },
+  {
+    "name": "OpenShift CLI",
+    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/",
+    "scope": "oc cluster/application operations"
+  },
+  {
+    "name": "Knative CLI",
+    "url": "https://knative.dev/docs/client/",
+    "scope": "Knative service/eventing CLI"
+  },
+  {
+    "name": "Tekton CLI",
+    "url": "https://tekton.dev/docs/cli/",
+    "scope": "Tekton pipelines and task runs"
+  },
+  {
+    "name": "AWS CLI",
+    "url": "https://docs.aws.amazon.com/cli/latest/reference/",
+    "scope": "AWS EKS/ECR/IAM/STS CLI"
+  },
+  {
+    "name": "Azure CLI",
+    "url": "https://learn.microsoft.com/cli/azure/",
+    "scope": "AKS/ACR/Key Vault CLI"
+  },
+  {
+    "name": "Google Cloud CLI",
+    "url": "https://cloud.google.com/sdk/gcloud/reference",
+    "scope": "GKE/Artifact Registry/Secret Manager CLI"
+  },
+  {
+    "name": "GitHub CLI",
+    "url": "https://cli.github.com/manual/",
+    "scope": "GitHub repository, PR, workflow and release CLI"
+  },
+  {
+    "name": "MinIO mc",
+    "url": "https://min.io/docs/minio/linux/reference/minio-mc.html",
+    "scope": "S3-compatible object storage administration"
+  },
+  {
+    "name": "Ceph CLI",
+    "url": "https://docs.ceph.com/en/latest/rados/operations/control/",
+    "scope": "Ceph cluster, OSD, pool and health commands"
+  },
+  {
+    "name": "Rook Toolbox",
+    "url": "https://rook.io/docs/rook/latest-release/Troubleshooting/ceph-toolbox/",
+    "scope": "Ceph operations from Kubernetes"
+  },
+  {
+    "name": "OpenTelemetry Collector",
+    "url": "https://opentelemetry.io/docs/collector/",
+    "scope": "Collector configuration and diagnostics"
+  },
+  {
+    "name": "kubeadm Reference",
+    "url": "https://kubernetes.io/docs/reference/setup-tools/kubeadm/",
+    "scope": "Kubernetes cluster bootstrap and lifecycle"
+  },
+  {
+    "name": "kubelet Reference",
+    "url": "https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/",
+    "scope": "Kubernetes node agent flags and behavior"
+  },
+  {
+    "name": "kind",
+    "url": "https://kind.sigs.k8s.io/docs/user/quick-start/",
+    "scope": "Kubernetes in Docker cluster lifecycle"
+  },
+  {
+    "name": "minikube",
+    "url": "https://minikube.sigs.k8s.io/docs/commands/",
+    "scope": "Local Kubernetes cluster commands"
+  },
+  {
+    "name": "Talos Linux",
+    "url": "https://www.talos.dev/latest/reference/cli/",
+    "scope": "talosctl machine and cluster administration"
+  },
+  {
+    "name": "Crossplane CLI",
+    "url": "https://docs.crossplane.io/cli/latest/",
+    "scope": "Platform engineering and composition CLI"
+  },
+  {
+    "name": "Operator SDK",
+    "url": "https://sdk.operatorframework.io/docs/cli/",
+    "scope": "Kubernetes operator development CLI"
+  },
+  {
+    "name": "Argo Rollouts",
+    "url": "https://argoproj.github.io/argo-rollouts/generated/kubectl-argo-rollouts/kubectl-argo-rollouts/",
+    "scope": "Progressive delivery kubectl plugin"
+  },
+  {
+    "name": "cert-manager cmctl",
+    "url": "https://cert-manager.io/docs/reference/cmctl/",
+    "scope": "Certificate lifecycle operations"
+  },
+  {
+    "name": "Krew",
+    "url": "https://krew.sigs.k8s.io/",
+    "scope": "kubectl plugin management"
+  },
+  {
+    "name": "Stern",
+    "url": "https://github.com/stern/stern",
+    "scope": "Multi-pod Kubernetes log tailing"
+  },
+  {
+    "name": "K9s",
+    "url": "https://k9scli.io/",
+    "scope": "Kubernetes terminal UI"
+  },
+  {
+    "name": "Helmfile",
+    "url": "https://helmfile.readthedocs.io/",
+    "scope": "Declarative Helm release orchestration"
+  },
+  {
+    "name": "Falco",
+    "url": "https://falco.org/docs/",
+    "scope": "Runtime threat detection"
+  },
+  {
+    "name": "Tetragon",
+    "url": "https://tetragon.io/docs/",
+    "scope": "eBPF security observability"
+  },
+  {
+    "name": "bpftool",
+    "url": "https://docs.kernel.org/bpf/bpftool.html",
+    "scope": "Linux BPF introspection"
+  },
+  {
+    "name": "Kafka",
+    "url": "https://kafka.apache.org/documentation/",
+    "scope": "Kafka administration utilities"
+  },
+  {
+    "name": "PostgreSQL",
+    "url": "https://www.postgresql.org/docs/current/app-psql.html",
+    "scope": "PostgreSQL psql administration"
+  },
+  {
+    "name": "Redis",
+    "url": "https://redis.io/docs/latest/develop/tools/cli/",
+    "scope": "Redis CLI administration"
+  },
+  {
+    "name": "NATS",
+    "url": "https://docs.nats.io/using-nats/nats-tools/nats_cli",
+    "scope": "NATS operational CLI"
+  },
+  {
+    "name": "systemd",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/",
+    "scope": "systemd and journal operations"
+  },
+  {
+    "name": "tcpdump",
+    "url": "https://www.tcpdump.org/manpages/tcpdump.1.html",
+    "scope": "Packet capture and network forensics"
+  },
+  {
+    "name": "OpenSSH",
+    "url": "https://man.openbsd.org/ssh",
+    "scope": "SSH, port forwarding and remote operations"
+  },
+  {
+    "name": "Netfilter",
+    "url": "https://www.netfilter.org/",
+    "scope": "iptables and nftables"
+  },
+  {
+    "name": "BIND dig",
+    "url": "https://bind9.readthedocs.io/",
+    "scope": "DNS query and resolver diagnostics"
+  },
+  {
+    "name": "DataDisk Common Unix Commands",
+    "url": "https://www.datadisk.co.uk/html_docs/misc/unix_commands.htm",
+    "scope": "Legacy cross-platform Solaris, Red Hat, Debian/Ubuntu, HP-UX and AIX command reference"
+  },
+  {
+    "name": "DataDisk Red Hat Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/linux/rh_cheatsheet.html",
+    "scope": "Legacy RHEL system administration command reference"
+  },
+  {
+    "name": "DataDisk Red Hat Networking",
+    "url": "https://www.datadisk.co.uk/html_docs/linux/rh_networking.html",
+    "scope": "Legacy and transition-era Linux networking commands including nmcli and ip"
+  },
+  {
+    "name": "DataDisk Docker Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/docker/docker_cheatsheet.html",
+    "scope": "Docker, Compose, Machine and Swarm command reference; legacy items retained only when useful"
+  },
+  {
+    "name": "DataDisk Kubernetes Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/kubernetes/kubernetes_cheatsheet.html",
+    "scope": "Kubernetes/minikube command reference"
+  },
+  {
+    "name": "DataDisk Git Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/git/git_cheatsheet.html",
+    "scope": "Git command reference"
+  },
+  {
+    "name": "DataDisk Ansible Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/ansible/ansible_cheatsheet.html",
+    "scope": "Ansible command and playbook reference"
+  },
+  {
+    "name": "DataDisk Maven Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/maven/maven_cheatsheet.html",
+    "scope": "Maven CLI and dependency command reference"
+  },
+  {
+    "name": "DataDisk MySQL Architecture / CLI",
+    "url": "https://www.datadisk.co.uk/html_docs/mysql/architecture.htm",
+    "scope": "MySQL client and mysqladmin command examples"
+  },
+  {
+    "name": "DataDisk Veritas VxVM Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/veritas/veritas_lvm_cs.htm",
+    "scope": "Legacy Veritas Volume Manager command reference"
+  },
+  {
+    "name": "DataDisk Veritas VxFS",
+    "url": "https://www.datadisk.co.uk/html_docs/veritas/veritas_file_system.htm",
+    "scope": "Legacy Veritas File System commands"
+  },
+  {
+    "name": "DataDisk AIX LVM Cheatsheet",
+    "url": "https://datadisk.co.uk/html_docs/hp/aix_lvm.htm",
+    "scope": "Legacy AIX LVM command reference"
+  },
+  {
+    "name": "DataDisk HP-UX Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/hp/hpux_cs.htm",
+    "scope": "Legacy HP-UX operator command reference"
+  },
+  {
+    "name": "DataDisk Solaris Zones Cheatsheet",
+    "url": "https://www.datadisk.co.uk/html_docs/sun/solaris_zones_cs.html",
+    "scope": "Legacy Solaris Zones command reference"
+  },
+  {
+    "name": "GNU Coreutils 9.11 Manual",
+    "url": "https://www.gnu.org/software/coreutils/manual/html_node/index.html",
+    "scope": "Current GNU file, text, directory, ownership, permission and process utilities"
+  },
+  {
+    "name": "GNU Findutils Manual",
+    "url": "https://www.gnu.org/software/findutils/manual/html_node/find_html/index.html",
+    "scope": "Current find, locate, updatedb and xargs behavior"
+  },
+  {
+    "name": "GNU sed Manual",
+    "url": "https://www.gnu.org/software/sed/manual/",
+    "scope": "Current GNU sed command reference"
+  },
+  {
+    "name": "GNU Bash 5.3 Reference Manual",
+    "url": "https://www.gnu.org/software/bash/manual/bash.html",
+    "scope": "Current Bash shell syntax, builtins, jobs, expansion and scripting"
+  },
+  {
+    "name": "Debian Reference",
+    "url": "https://www.debian.org/doc/manuals/debian-reference/index.en.html",
+    "scope": "Current Debian administration, APT/dpkg and system operations"
+  },
+  {
+    "name": "RHEL 10 Storage",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/managing_storage_devices/index",
+    "scope": "Current LVM, RAID, multipath, iSCSI, NVMe and storage administration"
+  },
+  {
+    "name": "RHEL 10 File Systems",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html-single/managing_file_systems/index",
+    "scope": "Current XFS/ext4/NFS/SMB file-system administration"
+  },
+  {
+    "name": "RHEL 10 SELinux",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html-single/using_selinux/index",
+    "scope": "Current SELinux administration and AVC troubleshooting"
+  },
+  {
+    "name": "RHEL 10 Firewalls",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html-single/configuring_firewalls_and_packet_filters/index",
+    "scope": "Current firewalld and nftables administration"
+  },
+  {
+    "name": "RHEL 10 Performance",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html-single/monitoring_and_managing_system_status_and_performance/index",
+    "scope": "Current sysstat, perf, TuneD and performance tooling"
+  },
+  {
+    "name": "RHEL 10 DNF",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html-single/managing_software_with_the_dnf_tool/index",
+    "scope": "Current DNF package and repository administration"
+  },
+  {
+    "name": "RHEL 10 Chrony",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/configuring_time_synchronization/using-chrony",
+    "scope": "Current chronyd/chronyc time synchronization"
+  },
+  {
+    "name": "RHEL 10 Audit",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/risk_reduction_and_recovery_operations/auditing-the-system",
+    "scope": "Current Linux Audit administration"
+  },
+  {
+    "name": "systemd journalctl",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/journalctl.html",
+    "scope": "systemd journal querying and incident diagnostics"
+  },
+  {
+    "name": "systemd coredumpctl",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/coredumpctl.html",
+    "scope": "Core dump listing, extraction and debugger integration"
+  },
+  {
+    "name": "MySQL 8.4 Client Programs",
+    "url": "https://dev.mysql.com/doc/refman/8.4/en/programs-client.html",
+    "scope": "Current MySQL client, mysqladmin, mysqlcheck, mysqldump and mysqlshow commands"
+  },
+  {
+    "name": "Apache Maven Dependency Plugin",
+    "url": "https://maven.apache.org/plugins/maven-dependency-plugin/usage.html",
+    "scope": "Current Maven dependency tree and classpath operations"
+  },
+  {
+    "name": "Apache Maven Help Plugin",
+    "url": "https://maven.apache.org/plugins/maven-help-plugin/usage.html",
+    "scope": "Current Maven effective POM and plugin help operations"
+  },
+  {
+    "name": "Gradle CLI 9.6.1",
+    "url": "https://docs.gradle.org/current/userguide/command_line_interface.html",
+    "scope": "Current Gradle wrapper, tasks, dependencies, build and diagnostic options"
+  },
+  {
+    "name": "Java 25 java command",
+    "url": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html",
+    "scope": "Current Java launch and JVM serviceability options"
+  },
+  {
+    "name": "Python 3.14 CLI",
+    "url": "https://docs.python.org/3/using/cmdline.html",
+    "scope": "Current CPython command line and environment"
+  },
+  {
+    "name": "Go Command Documentation",
+    "url": "https://go.dev/doc/cmd",
+    "scope": "Current Go build/test/vet/fmt/tool command suite"
+  },
+  {
+    "name": "rsyslog official documentation",
+    "url": "https://docs.rsyslog.com/doc/",
+    "scope": "Current rsyslog configuration, validation and operations"
+  },
+  {
+    "name": "Buildah official releases/docs",
+    "url": "https://buildah.io/releases/",
+    "scope": "Current Buildah image build and image-management capabilities"
+  },
+  {
+    "name": "Kubernetes kubectl debug",
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_debug/",
+    "scope": "Current kubectl workload/node debugging and ephemeral-container workflows"
+  },
+  {
+    "name": "Kubernetes kubectl api-resources",
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_api-resources/",
+    "scope": "Current API discovery and resource/verb enumeration"
+  },
+  {
+    "name": "Kubernetes kubectl explain",
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_explain/",
+    "scope": "Current OpenAPI-backed resource field introspection"
+  },
+  {
+    "name": "Kubernetes kubectl conventions",
+    "url": "https://kubernetes.io/docs/reference/kubectl/conventions/",
+    "scope": "Current scripting conventions, qualified resource versions and subresource behavior"
+  },
+  {
+    "name": "Linux namespaces",
+    "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html",
+    "scope": "Linux namespace architecture and /proc namespace interfaces"
+  },
+  {
+    "name": "Linux capabilities",
+    "url": "https://man7.org/linux/man-pages/man7/capabilities.7.html",
+    "scope": "Linux process/file capabilities and namespaced capability behavior"
+  },
+  {
+    "name": "Linux cgroup v2",
+    "url": "https://docs.kernel.org/admin-guide/cgroup-v2.html",
+    "scope": "Current Linux cgroup v2 controller, resource and pressure interfaces"
+  },
+  {
+    "name": "Linux PSI",
+    "url": "https://docs.kernel.org/accounting/psi.html",
+    "scope": "Pressure Stall Information for CPU, memory and IO contention"
+  },
+  {
+    "name": "Linux IP sysctl",
+    "url": "https://docs.kernel.org/networking/ip-sysctl.html",
+    "scope": "Kernel networking sysctl and TCP/IP tuning reference"
+  },
+  {
+    "name": "Linux libbpf overview",
+    "url": "https://docs.kernel.org/bpf/libbpf/libbpf_overview.html",
+    "scope": "eBPF/libbpf lifecycle, CO-RE, BTF and skeleton workflows"
+  },
+  {
+    "name": "Cilium CLI",
+    "url": "https://docs.cilium.io/en/latest/cmdref/cilium/",
+    "scope": "Current Cilium install/status/connectivity/troubleshooting CLI"
+  },
+  {
+    "name": "Cilium Hubble CLI",
+    "url": "https://docs.cilium.io/en/stable/observability/hubble/hubble-cli/",
+    "scope": "Cluster network flow visibility and filtering"
+  },
+  {
+    "name": "OPA CLI",
+    "url": "https://www.openpolicyagent.org/docs/cli",
+    "scope": "Current OPA eval/test/check/bench/inspect/build operations"
+  },
+  {
+    "name": "Cluster API clusterctl",
+    "url": "https://cluster-api.sigs.k8s.io/clusterctl/commands/commands",
+    "scope": "Current Cluster API lifecycle, describe, move and upgrade operations"
+  },
+  {
+    "name": "Cluster API move",
+    "url": "https://cluster-api.sigs.k8s.io/clusterctl/commands/move",
+    "scope": "Current clusterctl pivot/move and dry-run behavior"
+  },
+  {
+    "name": "Anchore Syft CLI",
+    "url": "https://oss.anchore.com/docs/reference/syft/cli/",
+    "scope": "Current SBOM generation for images and filesystems"
+  },
+  {
+    "name": "Anchore Grype scan targets",
+    "url": "https://oss.anchore.com/docs/guides/vulnerability/scan-targets/",
+    "scope": "Current vulnerability scanning of images, filesystems and SBOMs"
+  },
+  {
+    "name": "Krew Quickstart",
+    "url": "https://krew.sigs.k8s.io/docs/user-guide/quickstart/",
+    "scope": "Current kubectl plugin discovery/install/upgrade lifecycle"
+  },
+  {
+    "name": "Helmfile CLI",
+    "url": "https://helmfile.readthedocs.io/en/latest/cli/",
+    "scope": "Current Helmfile diff/apply/sync/lint/template/test/doctor operations"
+  },
+  {
+    "name": "Falco default/custom rules",
+    "url": "https://falco.org/docs/concepts/rules/default-custom/",
+    "scope": "Current Falco rule loading and falcoctl artifact lifecycle"
+  },
+  {
+    "name": "vLLM CLI",
+    "url": "https://docs.vllm.ai/en/latest/cli/",
+    "scope": "LLM serving and benchmarking"
+  },
+  {
+    "name": "PyTorch torchrun",
+    "url": "https://docs.pytorch.org/docs/main/elastic/run.html",
+    "scope": "Distributed training launch"
+  },
+  {
+    "name": "Hugging Face Accelerate",
+    "url": "https://huggingface.co/docs/accelerate/main/basic_tutorials/launch",
+    "scope": "Distributed training"
+  },
+  {
+    "name": "Hugging Face Hub CLI",
+    "url": "https://huggingface.co/docs/huggingface_hub/en/guides/cli",
+    "scope": "Model/dataset artifact operations"
+  },
+  {
+    "name": "Hugging Face TRL",
+    "url": "https://huggingface.co/docs/trl/en/index",
+    "scope": "LLM post-training"
+  },
+  {
+    "name": "Ray",
+    "url": "https://docs.ray.io/",
+    "scope": "Distributed AI/data runtime"
+  },
+  {
+    "name": "Astral uv",
+    "url": "https://docs.astral.sh/uv/reference/cli/",
+    "scope": "Python packaging/runtime"
+  },
+  {
+    "name": "Dask CLI",
+    "url": "https://docs.dask.org/en/stable/deploying-cli.html",
+    "scope": "Distributed data compute"
+  },
+  {
+    "name": "Spark submit",
+    "url": "https://spark.apache.org/docs/latest/submitting-applications.html",
+    "scope": "Spark application submission"
+  },
+  {
+    "name": "Airflow CLI",
+    "url": "https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables-ref.html",
+    "scope": "DAG/task operations"
+  },
+  {
+    "name": "osquery",
+    "url": "https://osquery.readthedocs.io/en/stable/",
+    "scope": "Endpoint telemetry"
+  },
+  {
+    "name": "YARA CLI",
+    "url": "https://yara.readthedocs.io/en/latest/commandline.html",
+    "scope": "Defensive detection rules"
+  },
+  {
+    "name": "Zeek",
+    "url": "https://docs.zeek.org/en/current/",
+    "scope": "Network monitoring"
+  },
+  {
+    "name": "Suricata",
+    "url": "https://docs.suricata.io/en/latest/command-line-options.html",
+    "scope": "IDS/IPS operations"
+  },
+  {
+    "name": "Wazuh agent_control",
+    "url": "https://documentation.wazuh.com/current/user-manual/reference/tools/agent-control.html",
+    "scope": "Endpoint agent operations"
+  },
+  {
+    "name": "Docker Compose CLI",
+    "url": "https://docs.docker.com/reference/cli/docker/compose/",
+    "scope": "Current Compose operations, dry-run and profiles"
+  },
+  {
+    "name": "Docker Buildx",
+    "url": "https://docs.docker.com/reference/cli/docker/buildx/",
+    "scope": "Current BuildKit/Buildx operations"
+  },
+  {
+    "name": "Docker Compose Watch",
+    "url": "https://docs.docker.com/reference/cli/docker/compose/watch/",
+    "scope": "Current Compose Watch"
+  },
+  {
+    "name": "Docker system df",
+    "url": "https://docs.docker.com/reference/cli/docker/system/df/",
+    "scope": "Docker daemon disk usage"
+  },
+  {
+    "name": "Docker inspect",
+    "url": "https://docs.docker.com/reference/cli/docker/inspect/",
+    "scope": "Docker object inspection"
+  },
+  {
+    "name": "Docker logs",
+    "url": "https://docs.docker.com/reference/cli/docker/container/logs/",
+    "scope": "Container log time-window operations"
+  },
+  {
+    "name": "Linux proc pid status",
+    "url": "https://man7.org/linux/man-pages/man5/proc_pid_status.5.html",
+    "scope": "Process status/memory/namespace IDs"
+  },
+  {
+    "name": "Linux proc pid fd",
+    "url": "https://man7.org/linux/man-pages/man5/proc_pid_fd.5.html",
+    "scope": "Process file descriptors"
+  },
+  {
+    "name": "GNU Coreutils 9.11",
+    "url": "https://www.gnu.org/software/coreutils/manual/coreutils.html",
+    "scope": "Current GNU core utilities and safe pipelines"
+  },
+  {
+    "name": "Kubernetes kubectl generated reference",
+    "url": "https://kubernetes.io/docs/reference/kubectl/generated/kubectl/",
+    "scope": "kubectl v1.36 command hierarchy, generated help and global CLI reference"
+  },
+  {
+    "name": "Argo CD CLI command reference",
+    "url": "https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/",
+    "scope": "Argo CD application command syntax, options and synchronization workflows"
+  },
+  {
+    "name": "tldr pages",
+    "url": "https://tldr.sh/",
+    "scope": "Design pattern: concise task-first command examples with a direct path to deeper documentation."
+  },
+  {
+    "name": "explainshell",
+    "url": "https://explainshell.com/",
+    "scope": "Design pattern: explain command structure and individual arguments/options."
+  },
+  {
+    "name": "navi interactive cheatsheets",
+    "url": "https://github.com/denisidoro/navi",
+    "scope": "Design pattern: searchable cheatsheets, variables, prompted values and execution-oriented navigation."
+  },
+  {
+    "name": "cheat.sh sheets",
+    "url": "https://github.com/chubin/cheat.sheets",
+    "scope": "Design pattern: short description followed by practical example blocks."
+  },
+  {
+    "name": "commandlinefu",
+    "url": "https://www.commandlinefu.com/commands/browse",
+    "scope": "Design pattern: surface useful commands through community ranking and personal collections."
+  },
+  {
+    "name": "SS64 Command Line Reference",
+    "url": "https://ss64.com/",
+    "scope": "Design pattern: performance-first command reference and A-Z navigation."
+  },
+  {
+    "name": "DevHints Docker cheatsheet",
+    "url": "https://devhints.io/docker",
+    "scope": "Design pattern: compact topic sections, syntax, options and examples."
+  },
+  {
+    "name": "QuickRef.ME",
+    "url": "https://quickref.me/",
+    "scope": "Design pattern: card-based quick references grouped by task/topic."
+  },
+  {
+    "name": "Cheatography Linux command-line sheet",
+    "url": "https://cheatography.com/davechild/cheat-sheets/linux-command-line/",
+    "scope": "Design pattern: printable one-page reference and direct manual-page links."
+  },
+  {
+    "name": "kubectl Quick Reference",
+    "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
+    "scope": "Official pattern: frequently used commands, flags, aliases/autocomplete and links to deeper kubectl reference."
+  },
+  {
+    "name": "Docker CLI Cheat Sheet",
+    "url": "https://docs.docker.com/get-started/docker_cheatsheet.pdf",
+    "scope": "Official pattern: lifecycle-based grouping plus direct --help discovery."
+  },
+  {
+    "name": "cheat community sheets",
+    "url": "https://github.com/cheat/cheatsheets",
+    "scope": "Design pattern: lightweight tagged sheets with descriptions and executable snippets."
+  },
+  {
+    "name": "OPENTOFU — INFRASTRUCTURE LIFECYCLE & STATE",
+    "url": "https://opentofu.org/docs/cli/commands/",
+    "scope": "Infrastructure as Code"
+  },
+  {
+    "name": "TERRAGRUNT — MULTI-UNIT / STACK ORCHESTRATION",
+    "url": "https://terragrunt.gruntwork.io/docs/reference/cli/commands/",
+    "scope": "Infrastructure as Code"
+  },
+  {
+    "name": "PULUMI — STACK, PREVIEW, UPDATE & STATE",
+    "url": "https://www.pulumi.com/docs/iac/cli/commands/",
+    "scope": "Infrastructure as Code"
+  },
+  {
+    "name": "PACKER — MACHINE IMAGE BUILD PIPELINES",
+    "url": "https://developer.hashicorp.com/packer/docs/commands",
+    "scope": "Image Build"
+  },
+  {
+    "name": "NOMAD — JOB / ALLOCATION / NODE OPERATIONS",
+    "url": "https://developer.hashicorp.com/nomad/commands",
+    "scope": "Schedulers"
+  },
+  {
+    "name": "CONSUL — MEMBERS, CATALOG, KV & OPERATOR",
+    "url": "https://developer.hashicorp.com/consul/commands",
+    "scope": "Service Networking"
+  },
+  {
+    "name": "KUBECTX / KUBENS — MULTI-CLUSTER NAVIGATION",
+    "url": "https://github.com/ahmetb/kubectx",
+    "scope": "Kubernetes Productivity"
+  },
+  {
+    "name": "KUBE-BENCH — CIS KUBERNETES ASSESSMENT",
+    "url": "https://github.com/aquasecurity/kube-bench",
+    "scope": "Kubernetes Security"
+  },
+  {
+    "name": "KUBESCAPE — KUBERNETES SECURITY POSTURE",
+    "url": "https://kubescape.io/docs/scanning/",
+    "scope": "Kubernetes Security"
+  },
+  {
+    "name": "CONFTEST — REGO POLICY TESTING",
+    "url": "https://www.conftest.dev/",
+    "scope": "Policy as Code"
+  },
+  {
+    "name": "KUBEBUILDER — OPERATOR / CRD DEVELOPMENT",
+    "url": "https://book.kubebuilder.io/quick-start.html",
+    "scope": "Kubernetes Development"
+  },
+  {
+    "name": "ARGO WORKFLOWS — SUBMIT, INSPECT & OPERATE",
+    "url": "https://argo-workflows.readthedocs.io/en/latest/walk-through/argo-cli/",
+    "scope": "Workflow Orchestration"
+  },
+  {
+    "name": "ETCDCTL — ENDPOINT, KV, SNAPSHOT & MEMBERSHIP",
+    "url": "https://etcd.io/docs/",
+    "scope": "Distributed KV"
+  },
+  {
+    "name": "K3S — SERVER, AGENT & CLUSTER ADMINISTRATION",
+    "url": "https://docs.k3s.io/cli",
+    "scope": "Kubernetes Distribution"
+  },
+  {
+    "name": "K0S — CONTROLLER / WORKER LIFECYCLE",
+    "url": "https://docs.k0sproject.io/stable/cli/",
+    "scope": "Kubernetes Distribution"
+  },
+  {
+    "name": "RESTIC — ENCRYPTED BACKUP / RESTORE OPERATIONS",
+    "url": "https://restic.readthedocs.io/en/stable/",
+    "scope": "Backup & Disaster Recovery"
+  },
+  {
+    "name": "RCLONE — CLOUD / OBJECT TRANSFER & SYNC",
+    "url": "https://rclone.org/commands/",
+    "scope": "Storage / Transfer"
+  },
+  {
+    "name": "OPENZFS — ZPOOL / ZFS DATASET OPERATIONS",
+    "url": "https://openzfs.github.io/openzfs-docs/man/",
+    "scope": "Linux / Storage"
+  },
+  {
+    "name": "BTRFS — SUBVOLUME, SCRUB, BALANCE & DEVICE",
+    "url": "https://btrfs.readthedocs.io/en/latest/",
+    "scope": "Linux / Storage"
+  },
+  {
+    "name": "CRYPTSETUP / LUKS — ENCRYPTED BLOCK DEVICE OPS",
+    "url": "https://gitlab.com/cryptsetup/cryptsetup",
+    "scope": "Linux / Storage Security"
+  },
+  {
+    "name": "IPERF3 — NETWORK THROUGHPUT DIAGNOSTICS",
+    "url": "https://software.es.net/iperf/",
+    "scope": "Networking / Linux"
+  },
+  {
+    "name": "MTR / TRACEROUTE — PATH LOSS & LATENCY",
+    "url": "https://man7.org/linux/man-pages/man8/mtr.8.html",
+    "scope": "Networking / Linux"
+  },
+  {
+    "name": "TSHARK — PCAP / PROTOCOL FORENSICS",
+    "url": "https://www.wireshark.org/docs/man-pages/tshark",
+    "scope": "Cybersecurity / Network Detection"
+  },
+  {
+    "name": "NMAP — AUTHORIZED NETWORK DISCOVERY & SERVICE INVENTORY",
+    "url": "https://nmap.org/book/man.html",
+    "scope": "Cybersecurity / Network Assessment"
+  },
+  {
+    "name": "CONNTRACK — NETFILTER SESSION STATE FORENSICS",
+    "url": "https://conntrack-tools.netfilter.org/",
+    "scope": "Networking / Linux"
+  },
+  {
+    "name": "GRAFANA CLI — PLUGINS & ADMINISTRATION",
+    "url": "https://grafana.com/docs/grafana/latest/administration/cli/",
+    "scope": "Observability"
+  },
+  {
+    "name": "AMTOOL — ALERTMANAGER ALERT / SILENCE OPERATIONS",
+    "url": "https://prometheus.io/docs/alerting/latest/alertmanager/",
+    "scope": "Observability"
+  },
+  {
+    "name": "THANOS — QUERY / STORE / COMPACT / BUCKET TOOLING",
+    "url": "https://thanos.io/tip/components/",
+    "scope": "Observability"
+  },
+  {
+    "name": "VECTOR — OBSERVABILITY PIPELINE VALIDATION",
+    "url": "https://vector.dev/docs/reference/cli/",
+    "scope": "Observability"
+  },
+  {
+    "name": "FLUENT BIT — CONFIG / INPUT / OUTPUT DIAGNOSTICS",
+    "url": "https://docs.fluentbit.io/manual/",
+    "scope": "Observability"
+  },
+  {
+    "name": "MONGOSH — MONGODB SHELL OPERATIONS",
+    "url": "https://www.mongodb.com/docs/mongodb-shell/",
+    "scope": "Databases"
+  },
+  {
+    "name": "SQLITE3 — LOCAL DATABASE INSPECTION & EXPORT",
+    "url": "https://www.sqlite.org/cli.html",
+    "scope": "Databases"
+  },
+  {
+    "name": "CQLSH — CASSANDRA CQL / SCHEMA / TRACING",
+    "url": "https://cassandra.apache.org/doc/stable/cassandra/managing/tools/cqlsh.html",
+    "scope": "Databases"
+  },
+  {
+    "name": "CLICKHOUSE CLIENT — ANALYTICAL SQL OPERATIONS",
+    "url": "https://clickhouse.com/docs/interfaces/cli",
+    "scope": "Databases"
+  },
+  {
+    "name": "COCKROACHDB — SQL / NODE / DEBUG OPERATIONS",
+    "url": "https://www.cockroachlabs.com/docs/stable/cockroach-commands",
+    "scope": "Databases"
+  },
+  {
+    "name": "RABBITMQ — BROKER / QUEUE / USER / CLUSTER OPS",
+    "url": "https://www.rabbitmq.com/docs/cli",
+    "scope": "Messaging"
+  },
+  {
+    "name": "APACHE PULSAR — TOPICS / NAMESPACES / BROKERS",
+    "url": "https://pulsar.apache.org/docs/next/reference-cli-tools/",
+    "scope": "Messaging"
+  },
+  {
+    "name": "KCAT — KAFKA CONNECTIVITY / METADATA TOOLBOX",
+    "url": "https://github.com/edenhill/kcat",
+    "scope": "Messaging"
+  },
+  {
+    "name": "RPK — REDPANDA / KAFKA-COMPATIBLE CLUSTER OPS",
+    "url": "https://docs.redpanda.com/current/reference/rpk/",
+    "scope": "Messaging"
+  },
+  {
+    "name": "GITLAB GLAB — MERGE REQUESTS / ISSUES / CI/CD",
+    "url": "https://docs.gitlab.com/cli/",
+    "scope": "Source Control / CI"
+  },
+  {
+    "name": "CIRCLECI CLI — CONFIG / RUN / ORB OPERATIONS",
+    "url": "https://cli.circleci.com/reference/",
+    "scope": "CI/CD"
+  },
+  {
+    "name": "JENKINS CLI — JOB / BUILD / CONSOLE OPERATIONS",
+    "url": "https://www.jenkins.io/doc/book/managing/cli/",
+    "scope": "CI/CD"
+  },
+  {
+    "name": "NPM — NODE PACKAGE / CI / AUDIT OPERATIONS",
+    "url": "https://docs.npmjs.com/cli/",
+    "scope": "JavaScript / Node"
+  },
+  {
+    "name": "PNPM — FAST NODE PACKAGE / WORKSPACE OPERATIONS",
+    "url": "https://pnpm.io/cli/add",
+    "scope": "JavaScript / Node"
+  },
+  {
+    "name": "YARN — MODERN PACKAGE / WORKSPACE OPERATIONS",
+    "url": "https://yarnpkg.com/cli",
+    "scope": "JavaScript / Node"
+  },
+  {
+    "name": "BUN — JAVASCRIPT RUNTIME / PACKAGE / TEST / BUILD",
+    "url": "https://bun.sh/docs/cli",
+    "scope": "JavaScript / Runtime"
+  },
+  {
+    "name": "RUST CARGO — BUILD / TEST / DEPENDENCY OPERATIONS",
+    "url": "https://doc.rust-lang.org/cargo/commands/",
+    "scope": "Rust / Build"
+  },
+  {
+    "name": "CMAKE / CTEST — CONFIGURE, BUILD, INSTALL & TEST",
+    "url": "https://cmake.org/cmake/help/latest/manual/cmake.1.html",
+    "scope": "Build Tools"
+  },
+  {
+    "name": "GCC / G++ — NATIVE COMPILER DIAGNOSTICS",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/",
+    "scope": "C/C++"
+  },
+  {
+    "name": "CLANG / LLVM — COMPILER & OBJECT TOOLING",
+    "url": "https://clang.llvm.org/docs/UsersManual.html",
+    "scope": "C/C++"
+  },
+  {
+    "name": ".NET CLI — BUILD / TEST / PUBLISH / TOOLS",
+    "url": "https://learn.microsoft.com/en-us/dotnet/core/tools/",
+    "scope": "Runtime / .NET"
+  },
+  {
+    "name": "NODE.JS — RUNTIME / INSPECT / PROFILING",
+    "url": "https://nodejs.org/api/cli.html",
+    "scope": "JavaScript / Runtime"
+  },
+  {
+    "name": "JDK DIAGNOSTIC TOOLS — THREADS / HEAP / GC / KEYSTORE",
+    "url": "https://docs.oracle.com/en/java/javase/",
+    "scope": "Runtime / JVM"
+  },
+  {
+    "name": "PIPX — ISOLATED PYTHON CLI APPLICATIONS",
+    "url": "https://pipx.pypa.io/stable/reference/cli.html",
+    "scope": "Python / Packaging"
+  },
+  {
+    "name": "POETRY — PYTHON PROJECT / DEPENDENCY MANAGEMENT",
+    "url": "https://python-poetry.org/docs/cli/",
+    "scope": "Python / Packaging"
+  },
+  {
+    "name": "CONDA — ENVIRONMENT / PACKAGE / CHANNEL OPERATIONS",
+    "url": "https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html",
+    "scope": "Python / Environments"
+  },
+  {
+    "name": "MICROMAMBA — FAST CONDA-COMPATIBLE ENVIRONMENTS",
+    "url": "https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html",
+    "scope": "Python / Environments"
+  },
+  {
+    "name": "TOX — MULTI-ENVIRONMENT PYTHON TEST ORCHESTRATION",
+    "url": "https://tox.wiki/en/latest/cli_interface.html",
+    "scope": "Python / Testing"
+  },
+  {
+    "name": "COVERAGE.PY — TEST COVERAGE COLLECTION & REPORTING",
+    "url": "https://coverage.readthedocs.io/en/latest/commands/",
+    "scope": "Python / Quality"
+  },
+  {
+    "name": "PY-SPY — LOW-OVERHEAD PYTHON PROFILING",
+    "url": "https://github.com/benfred/py-spy",
+    "scope": "Python / Performance"
+  },
+  {
+    "name": "BLACK — PYTHON FORMAT / CHECK WORKFLOWS",
+    "url": "https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html",
+    "scope": "Python / Quality"
+  },
+  {
+    "name": "PRE-COMMIT — REPOSITORY HOOK / QUALITY AUTOMATION",
+    "url": "https://pre-commit.com/",
+    "scope": "Developer Quality"
+  },
+  {
+    "name": "OLLAMA — LOCAL MODEL LIFECYCLE & INFERENCE",
+    "url": "https://docs.ollama.com/cli",
+    "scope": "AI / LLM Inference"
+  },
+  {
+    "name": "LLAMA.CPP — GGUF INFERENCE / SERVER / BENCHMARK",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "scope": "AI / LLM Inference"
+  },
+  {
+    "name": "DEEPSPEED — DISTRIBUTED TRAINING LAUNCHER",
+    "url": "https://www.deepspeed.ai/getting-started/",
+    "scope": "AI / Distributed Training"
+  },
+  {
+    "name": "WEIGHTS & BIASES — EXPERIMENT / SWEEP / SYNC CLI",
+    "url": "https://docs.wandb.ai/ref/cli/",
+    "scope": "AI / MLOps"
+  },
+  {
+    "name": "DVC — DATA / MODEL VERSIONING & PIPELINES",
+    "url": "https://dvc.org/doc/command-reference",
+    "scope": "Data / MLOps"
+  },
+  {
+    "name": "DBT — ANALYTICS ENGINEERING COMMAND CENTER",
+    "url": "https://docs.getdbt.com/reference/dbt-commands",
+    "scope": "Data Engineering"
+  },
+  {
+    "name": "PREFECT — SERVER / WORKER / DEPLOYMENT OPERATIONS",
+    "url": "https://docs.prefect.io/v3/api-ref/cli/",
+    "scope": "Data Engineering / Orchestration"
+  },
+  {
+    "name": "DAGSTER — DEVELOPMENT / JOB / ASSET OPERATIONS",
+    "url": "https://docs.dagster.io/api/clis",
+    "scope": "Data Engineering / Orchestration"
+  },
+  {
+    "name": "APACHE FLINK — JOB SUBMISSION / SAVEPOINT OPERATIONS",
+    "url": "https://nightlies.apache.org/flink/flink-docs-stable/docs/deployment/cli/",
+    "scope": "Data Engineering"
+  },
+  {
+    "name": "TRINO CLI — DISTRIBUTED SQL QUERY OPERATIONS",
+    "url": "https://trino.io/docs/current/client/cli.html",
+    "scope": "Data Analytics"
+  },
+  {
+    "name": "HDFS — FILESYSTEM / CAPACITY / ADMIN COMMANDS",
+    "url": "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html",
+    "scope": "Data Engineering"
+  },
+  {
+    "name": "BEELINE / HIVE SQL SHELL OPERATIONS",
+    "url": "https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients",
+    "scope": "Data Engineering"
+  },
+  {
+    "name": "AZURE CLI — VM / STORAGE / NETWORK / MONITOR / KEY VAULT",
+    "url": "https://learn.microsoft.com/cli/azure/reference-index",
+    "scope": "Cloud / Azure"
+  },
+  {
+    "name": "OCI CLI — COMPUTE / VCN / OBJECT STORAGE / OKE",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm",
+    "scope": "Cloud / OCI"
+  },
+  {
+    "name": "CLOUDFLARE WRANGLER — WORKERS / PAGES / EDGE RESOURCES",
+    "url": "https://developers.cloudflare.com/workers/wrangler/commands/",
+    "scope": "Cloud / Edge"
+  },
+  {
+    "name": "DIGITALOCEAN DOCTL — DROPLET / KUBERNETES / REGISTRY",
+    "url": "https://docs.digitalocean.com/reference/doctl/reference/",
+    "scope": "Cloud / DigitalOcean"
+  },
+  {
+    "name": "SEMGREP — AUTHORIZED STATIC SECURITY ANALYSIS",
+    "url": "https://semgrep.dev/docs/cli-reference/",
+    "scope": "Security / Static Analysis"
+  },
+  {
+    "name": "CHECKOV — IAC / KUBERNETES / CLOUD TEMPLATE SCANNING",
+    "url": "https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html",
+    "scope": "Security / IaC"
+  },
+  {
+    "name": "GITLEAKS — DEFENSIVE SECRET DETECTION",
+    "url": "https://github.com/gitleaks/gitleaks",
+    "scope": "Security / Secrets"
+  },
+  {
+    "name": "KUBELINTER — KUBERNETES YAML / HELM STATIC ANALYSIS",
+    "url": "https://docs.kubelinter.io/",
+    "scope": "Kubernetes Security"
+  },
+  {
+    "name": "KUBE-SCORE — KUBERNETES MANIFEST RELIABILITY ANALYSIS",
+    "url": "https://github.com/zegl/kube-score",
+    "scope": "Kubernetes Quality"
+  },
+  {
+    "name": "POPEYE — LIVE KUBERNETES CLUSTER SANITIZER",
+    "url": "https://popeyecli.io/",
+    "scope": "Kubernetes Operations"
+  },
+  {
+    "name": "NVIDIA CONTAINER TOOLKIT — GPU RUNTIME / CDI OPERATIONS",
+    "url": "https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/",
+    "scope": "AI / GPU Platform"
+  },
+  {
+    "name": "NVIDIA NSIGHT SYSTEMS — GPU / CPU PROFILING CLI",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/",
+    "scope": "AI / Performance"
+  },
+  {
+    "name": "GRAFANA K6 — LOAD / PERFORMANCE TEST EXECUTION",
+    "url": "https://grafana.com/docs/k6/latest/get-started/running-k6/",
+    "scope": "Performance Testing"
+  },
+  {
+    "name": "AGE — MODERN FILE ENCRYPTION / DECRYPTION",
+    "url": "https://github.com/FiloSottile/age",
+    "scope": "Security / Encryption"
+  },
+  {
+    "name": "GNUPG — OPENPGP KEYS / SIGN / VERIFY / ENCRYPT",
+    "url": "https://gnupg.org/documentation/manuals/gnupg/",
+    "scope": "Security / Cryptography"
+  },
+  {
+    "name": "SMALLSTEP — CERTIFICATE / PKI DIAGNOSTICS",
+    "url": "https://smallstep.com/docs/step-cli/",
+    "scope": "Security / PKI"
+  },
+  {
+    "name": "FZF — INTERACTIVE FUZZY SELECTION TOOLBOX",
+    "url": "https://github.com/junegunn/fzf",
+    "scope": "Developer Utilities"
+  },
+  {
+    "name": "RIPGREP — HIGH-PERFORMANCE TEXT SEARCH",
+    "url": "https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md",
+    "scope": "Developer Utilities"
+  },
+  {
+    "name": "FD — FAST FILESYSTEM DISCOVERY",
+    "url": "https://github.com/sharkdp/fd",
+    "scope": "Developer Utilities"
+  },
+  {
+    "name": "BAT — SYNTAX-AWARE FILE / LOG VIEWER",
+    "url": "https://github.com/sharkdp/bat",
+    "scope": "Developer Utilities"
+  },
+  {
+    "name": "UNIVERSAL CLI DISCOVERY / COMPLETION / MAN-PAGE TOOLBOX",
+    "url": "https://man7.org/linux/man-pages/",
+    "scope": "Developer Utilities"
+  },
+  {
+    "name": "Kubebuilder",
+    "url": "https://book.kubebuilder.io/",
+    "scope": "Operator development"
+  },
+  {
+    "name": "procps-ng",
+    "url": "https://gitlab.com/procps-ng/procps",
+    "scope": "Official/project reference for procps-ng commands"
+  },
+  {
+    "name": "Linux Scheduling Tools",
+    "url": "https://man7.org/linux/man-pages/man1/taskset.1.html",
+    "scope": "Official/project reference for Linux Scheduling Tools commands"
+  },
+  {
+    "name": "XFS Utilities",
+    "url": "https://man7.org/linux/man-pages/man8/xfs_info.8.html",
+    "scope": "Official/project reference for XFS Utilities commands"
+  },
+  {
+    "name": "ext2/3/4 Utilities",
+    "url": "https://man7.org/linux/man-pages/man8/e2fsck.8.html",
+    "scope": "Official/project reference for ext2/3/4 Utilities commands"
+  },
+  {
+    "name": "POSIX ACL Tools",
+    "url": "https://man7.org/linux/man-pages/man1/getfacl.1.html",
+    "scope": "Official/project reference for POSIX ACL Tools commands"
+  },
+  {
+    "name": "Extended Attribute Tools",
+    "url": "https://man7.org/linux/man-pages/man1/getfattr.1.html",
+    "scope": "Official/project reference for Extended Attribute Tools commands"
+  },
+  {
+    "name": "Linux Quota Tools",
+    "url": "https://man7.org/linux/man-pages/man8/quotacheck.8.html",
+    "scope": "Official/project reference for Linux Quota Tools commands"
+  },
+  {
+    "name": "Device Mapper Multipath",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_device_mapper_multipath/",
+    "scope": "Official/project reference for Device Mapper Multipath commands"
+  },
+  {
+    "name": "lsscsi",
+    "url": "https://sg.danny.cz/scsi/lsscsi.html",
+    "scope": "Official/project reference for lsscsi commands"
+  },
+  {
+    "name": "sg3_utils",
+    "url": "https://sg.danny.cz/sg/sg3_utils.html",
+    "scope": "Official/project reference for sg3_utils commands"
+  },
+  {
+    "name": "targetcli-fb",
+    "url": "https://github.com/open-iscsi/targetcli-fb",
+    "scope": "Official/project reference for targetcli-fb commands"
+  },
+  {
+    "name": "dracut",
+    "url": "https://man7.org/linux/man-pages/man8/dracut.8.html",
+    "scope": "Official/project reference for dracut commands"
+  },
+  {
+    "name": "grubby",
+    "url": "https://github.com/rhboot/grubby",
+    "scope": "Official/project reference for grubby commands"
+  },
+  {
+    "name": "efibootmgr",
+    "url": "https://manpages.debian.org/efibootmgr",
+    "scope": "Official/project reference for efibootmgr commands"
+  },
+  {
+    "name": "mokutil",
+    "url": "https://manpages.debian.org/mokutil",
+    "scope": "Official/project reference for mokutil commands"
+  },
+  {
+    "name": "sos report",
+    "url": "https://github.com/sosreport/sos",
+    "scope": "Official/project reference for sos report commands"
+  },
+  {
+    "name": "kdump / kexec",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_monitoring_and_updating_the_kernel/configuring-kdump_managing-monitoring-and-updating-the-kernel",
+    "scope": "Official/project reference for kdump / kexec commands"
+  },
+  {
+    "name": "crash utility",
+    "url": "https://crash-utility.github.io/",
+    "scope": "Official/project reference for crash utility commands"
+  },
+  {
+    "name": "zypper",
+    "url": "https://documentation.suse.com/sles/15-SP7/html/SLES-all/cha-sw-cl.html",
+    "scope": "Official/project reference for zypper commands"
+  },
+  {
+    "name": "Snapper",
+    "url": "https://documentation.suse.com/sles/15-SP7/html/SLES-all/cha-snapper.html",
+    "scope": "Official/project reference for Snapper commands"
+  },
+  {
+    "name": "pacman",
+    "url": "https://man.archlinux.org/man/pacman.8.en",
+    "scope": "Official/project reference for pacman commands"
+  },
+  {
+    "name": "Alpine apk",
+    "url": "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper",
+    "scope": "Official/project reference for Alpine apk commands"
+  },
+  {
+    "name": "Nix CLI",
+    "url": "https://nix.dev/manual/nix/latest/command-ref/new-cli/nix",
+    "scope": "Official/project reference for Nix CLI commands"
+  },
+  {
+    "name": "LLDP Utilities",
+    "url": "https://lldpd.github.io/usage.html",
+    "scope": "Official/project reference for LLDP Utilities commands"
+  },
+  {
+    "name": "WireGuard",
+    "url": "https://www.wireguard.com/quickstart/",
+    "scope": "Official/project reference for WireGuard commands"
+  },
+  {
+    "name": "strongSwan",
+    "url": "https://docs.strongswan.org/docs/latest/",
+    "scope": "Official/project reference for strongSwan commands"
+  },
+  {
+    "name": "OpenVPN",
+    "url": "https://openvpn.net/community-docs/community-articles/openvpn-2-6-manual.html",
+    "scope": "Official/project reference for OpenVPN commands"
+  },
+  {
+    "name": "FRRouting vtysh",
+    "url": "https://docs.frrouting.org/",
+    "scope": "Official/project reference for FRRouting vtysh commands"
+  },
+  {
+    "name": "systemd-resolved",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/resolvectl.html",
+    "scope": "Official/project reference for systemd-resolved commands"
+  },
+  {
+    "name": "kubectl-tree",
+    "url": "https://github.com/ahmetb/kubectl-tree",
+    "scope": "Official/project reference for kubectl-tree commands"
+  },
+  {
+    "name": "kubectl-neat",
+    "url": "https://github.com/itaysk/kubectl-neat",
+    "scope": "Official/project reference for kubectl-neat commands"
+  },
+  {
+    "name": "rakkess",
+    "url": "https://github.com/corneliusweig/rakkess",
+    "scope": "Official/project reference for rakkess commands"
+  },
+  {
+    "name": "ketall",
+    "url": "https://github.com/corneliusweig/ketall",
+    "scope": "Official/project reference for ketall commands"
+  },
+  {
+    "name": "kube-capacity",
+    "url": "https://github.com/robscott/kube-capacity",
+    "scope": "Official/project reference for kube-capacity commands"
+  },
+  {
+    "name": "Fairwinds Pluto",
+    "url": "https://pluto.docs.fairwinds.com/",
+    "scope": "Official/project reference for Fairwinds Pluto commands"
+  },
+  {
+    "name": "Fairwinds Nova",
+    "url": "https://nova.docs.fairwinds.com/",
+    "scope": "Official/project reference for Fairwinds Nova commands"
+  },
+  {
+    "name": "Fairwinds Goldilocks",
+    "url": "https://goldilocks.docs.fairwinds.com/",
+    "scope": "Official/project reference for Fairwinds Goldilocks commands"
+  },
+  {
+    "name": "Inspektor Gadget",
+    "url": "https://inspektor-gadget.io/docs/latest/",
+    "scope": "Official/project reference for Inspektor Gadget commands"
+  },
+  {
+    "name": "crane",
+    "url": "https://github.com/google/go-containerregistry/tree/main/cmd/crane",
+    "scope": "Official/project reference for crane commands"
+  },
+  {
+    "name": "regctl",
+    "url": "https://regclient.org/cli/",
+    "scope": "Official/project reference for regctl commands"
+  },
+  {
+    "name": "dive",
+    "url": "https://github.com/wagoodman/dive",
+    "scope": "Official/project reference for dive commands"
+  },
+  {
+    "name": "OpenCost / kubectl cost",
+    "url": "https://opencost.io/docs/integrations/kubectl-cost/",
+    "scope": "Official/project reference for OpenCost / kubectl cost commands"
+  },
+  {
+    "name": "Infracost",
+    "url": "https://www.infracost.io/docs/features/cli_commands/",
+    "scope": "Official/project reference for Infracost commands"
+  },
+  {
+    "name": "otel-cli",
+    "url": "https://github.com/equinix-labs/otel-cli",
+    "scope": "Official/project reference for otel-cli commands"
+  },
+  {
+    "name": "VictoriaMetrics",
+    "url": "https://docs.victoriametrics.com/",
+    "scope": "Official/project reference for VictoriaMetrics commands"
+  },
+  {
+    "name": "Elasticsearch APIs",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html",
+    "scope": "Official/project reference for Elasticsearch APIs commands"
+  },
+  {
+    "name": "OpenSearch APIs",
+    "url": "https://docs.opensearch.org/latest/api-reference/",
+    "scope": "Official/project reference for OpenSearch APIs commands"
+  },
+  {
+    "name": "InfluxDB CLI",
+    "url": "https://docs.influxdata.com/influxdb/",
+    "scope": "Official/project reference for InfluxDB CLI commands"
+  },
+  {
+    "name": "MongoDB Database Tools",
+    "url": "https://www.mongodb.com/docs/database-tools/",
+    "scope": "Official/project reference for MongoDB Database Tools commands"
+  },
+  {
+    "name": "Cassandra nodetool",
+    "url": "https://cassandra.apache.org/doc/latest/cassandra/managing/tools/nodetool/nodetool.html",
+    "scope": "Official/project reference for Cassandra nodetool commands"
+  },
+  {
+    "name": "Mosquitto MQTT",
+    "url": "https://mosquitto.org/man/",
+    "scope": "Official/project reference for Mosquitto MQTT commands"
+  },
+  {
+    "name": "Bazel",
+    "url": "https://bazel.build/reference/command-line-reference",
+    "scope": "Official/project reference for Bazel commands"
+  },
+  {
+    "name": "Ninja",
+    "url": "https://ninja-build.org/manual.html",
+    "scope": "Official/project reference for Ninja commands"
+  },
+  {
+    "name": "Delve",
+    "url": "https://github.com/go-delve/delve/tree/master/Documentation",
+    "scope": "Official/project reference for Delve commands"
+  },
+  {
+    "name": "SonarScanner CLI",
+    "url": "https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/scanners/sonarscanner/",
+    "scope": "Official/project reference for SonarScanner CLI commands"
+  },
+  {
+    "name": "NVIDIA DCGM",
+    "url": "https://docs.nvidia.com/datacenter/dcgm/latest/user-guide/feature-overview.html",
+    "scope": "Official/project reference for NVIDIA DCGM commands"
+  },
+  {
+    "name": "NVIDIA Triton Tools",
+    "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/",
+    "scope": "Official/project reference for NVIDIA Triton Tools commands"
+  },
+  {
+    "name": "Hugging Face TGI",
+    "url": "https://huggingface.co/docs/text-generation-inference/",
+    "scope": "Official/project reference for Hugging Face TGI commands"
+  },
+  {
+    "name": "SGLang",
+    "url": "https://docs.sglang.ai/",
+    "scope": "Official/project reference for SGLang commands"
+  },
+  {
+    "name": "TensorRT",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/reference/command-line-programs.html",
+    "scope": "Official/project reference for TensorRT commands"
+  },
+  {
+    "name": "NCCL Tests",
+    "url": "https://github.com/NVIDIA/nccl-tests",
+    "scope": "Official/project reference for NCCL Tests commands"
+  },
+  {
+    "name": "Lynis",
+    "url": "https://cisofy.com/documentation/lynis/",
+    "scope": "Official/project reference for Lynis commands"
+  },
+  {
+    "name": "AIDE",
+    "url": "https://aide.github.io/",
+    "scope": "Official/project reference for AIDE commands"
+  },
+  {
+    "name": "Notation",
+    "url": "https://notaryproject.dev/docs/user-guides/",
+    "scope": "Official/project reference for Notation commands"
+  },
+  {
+    "name": "TruffleHog",
+    "url": "https://github.com/trufflesecurity/trufflehog",
+    "scope": "Official/project reference for TruffleHog commands"
+  },
+  {
+    "name": "PowerShell",
+    "url": "https://learn.microsoft.com/powershell/",
+    "scope": "Official/project reference for PowerShell commands"
+  },
+  {
+    "name": "Windows Package Manager",
+    "url": "https://learn.microsoft.com/windows/package-manager/winget/",
+    "scope": "Official/project reference for Windows Package Manager commands"
+  },
+  {
+    "name": "Windows Event Utility",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/wevtutil",
+    "scope": "Official/project reference for Windows Event Utility commands"
+  },
+  {
+    "name": "Robocopy",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy",
+    "scope": "Official/project reference for Robocopy commands"
+  },
+  {
+    "name": "DISM",
+    "url": "https://learn.microsoft.com/windows-hardware/manufacture/desktop/dism-reference--deployment-image-servicing-and-management",
+    "scope": "Official/project reference for DISM commands"
+  },
+  {
+    "name": "netsh",
+    "url": "https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh",
+    "scope": "Official/project reference for netsh commands"
+  },
+  {
+    "name": "Homebrew",
+    "url": "https://docs.brew.sh/Manpage",
+    "scope": "Official/project reference for Homebrew commands"
+  },
+  {
+    "name": "launchctl",
+    "url": "https://www.unix.com/man-page/osx/1/launchctl/",
+    "scope": "Official/project reference for launchctl commands"
+  },
+  {
+    "name": "macOS unified log",
+    "url": "https://support.apple.com/guide/console/welcome/mac",
+    "scope": "Official/project reference for macOS unified log commands"
+  },
+  {
+    "name": "networksetup",
+    "url": "https://support.apple.com/guide/terminal/welcome/mac",
+    "scope": "Official/project reference for networksetup commands"
+  },
+  {
+    "name": "diskutil",
+    "url": "https://support.apple.com/guide/disk-utility/welcome/mac",
+    "scope": "Official/project reference for diskutil commands"
+  },
+  {
+    "name": "macOS security",
+    "url": "https://support.apple.com/guide/keychain-access/welcome/mac",
+    "scope": "Official/project reference for macOS security commands"
+  },
+  {
+    "name": "codesign",
+    "url": "https://developer.apple.com/documentation/security/code_signing_services",
+    "scope": "Official/project reference for codesign commands"
+  },
+  {
+    "name": "BorgBackup",
+    "url": "https://borgbackup.readthedocs.io/en/stable/",
+    "scope": "Official/project reference for BorgBackup commands"
+  },
+  {
+    "name": "Duplicity",
+    "url": "https://duplicity.gitlab.io/",
+    "scope": "Official/project reference for Duplicity commands"
+  },
+  {
+    "name": "pgBackRest",
+    "url": "https://pgbackrest.org/command.html",
+    "scope": "Official/project reference for pgBackRest commands"
+  },
+  {
+    "name": "WAL-G",
+    "url": "https://wal-g.readthedocs.io/",
+    "scope": "Official/project reference for WAL-G commands"
+  },
+  {
+    "name": "redis-benchmark",
+    "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/",
+    "scope": "Official/project reference for redis-benchmark commands"
+  },
+  {
+    "name": "Git LFS",
+    "url": "https://git-lfs.com/",
+    "scope": "Official/project reference for Git LFS commands"
+  },
+  {
+    "name": "ShellCheck",
+    "url": "https://www.shellcheck.net/",
+    "scope": "Official/project reference for ShellCheck commands"
+  },
+  {
+    "name": "shfmt",
+    "url": "https://github.com/mvdan/sh",
+    "scope": "Official/project reference for shfmt commands"
+  },
+  {
+    "name": "Hadolint",
+    "url": "https://github.com/hadolint/hadolint",
+    "scope": "Official/project reference for Hadolint commands"
+  },
+  {
+    "name": "yamllint",
+    "url": "https://yamllint.readthedocs.io/",
+    "scope": "Official/project reference for yamllint commands"
+  },
+  {
+    "name": "ansible-lint",
+    "url": "https://ansible.readthedocs.io/projects/lint/",
+    "scope": "Official/project reference for ansible-lint commands"
+  },
+  {
+    "name": "kubeconform",
+    "url": "https://github.com/yannh/kubeconform",
+    "scope": "Official/project reference for kubeconform commands"
+  },
+  {
+    "name": "grpcurl",
+    "url": "https://github.com/fullstorydev/grpcurl",
+    "scope": "Official/project reference for grpcurl commands"
+  },
+  {
+    "name": "HTTPie",
+    "url": "https://httpie.io/docs/cli",
+    "scope": "Official/project reference for HTTPie commands"
+  },
+  {
+    "name": "websocat",
+    "url": "https://github.com/vi/websocat",
+    "scope": "Official/project reference for websocat commands"
+  },
+  {
+    "name": "Vegeta",
+    "url": "https://github.com/tsenart/vegeta",
+    "scope": "Official/project reference for Vegeta commands"
+  },
+  {
+    "name": "wrk",
+    "url": "https://github.com/wg/wrk",
+    "scope": "Official/project reference for wrk commands"
+  },
+  {
+    "name": "hey",
+    "url": "https://github.com/rakyll/hey",
+    "scope": "Official/project reference for hey commands"
+  },
+  {
+    "name": "bpftrace",
+    "url": "https://bpftrace.org/docs/latest/",
+    "scope": "Official/project reference for bpftrace commands"
+  },
+  {
+    "name": "sysdig",
+    "url": "https://github.com/draios/sysdig/wiki",
+    "scope": "Official/project reference for sysdig commands"
+  },
+  {
+    "name": "Windows Subsystem for Linux",
+    "url": "https://learn.microsoft.com/windows/wsl/basic-commands",
+    "scope": "Official/project reference for Windows Subsystem for Linux commands"
+  },
+  {
+    "name": "Chocolatey",
+    "url": "https://docs.chocolatey.org/en-us/choco/commands/",
+    "scope": "Official/project reference for Chocolatey commands"
+  },
+  {
+    "name": "Scoop",
+    "url": "https://github.com/ScoopInstaller/Scoop/wiki/Commands",
+    "scope": "Official/project reference for Scoop commands"
+  },
+  {
+    "name": "certutil",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/certutil",
+    "scope": "Official/project reference for certutil commands"
+  },
+  {
+    "name": "schtasks",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/schtasks",
+    "scope": "Official/project reference for schtasks commands"
+  },
+  {
+    "name": "tasklist / taskkill",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist",
+    "scope": "Official/project reference for tasklist / taskkill commands"
+  },
+  {
+    "name": "ipconfig",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig",
+    "scope": "Official/project reference for ipconfig commands"
+  },
+  {
+    "name": "Windows route",
+    "url": "https://learn.microsoft.com/windows-server/administration/windows-commands/route_ws2008",
+    "scope": "Official/project reference for Windows route commands"
+  },
+  {
+    "name": "softwareupdate",
+    "url": "https://support.apple.com/guide/deployment/manage-macos-updates-depafd2fad80/web",
+    "scope": "Official/project reference for softwareupdate commands"
+  },
+  {
+    "name": "spctl",
+    "url": "https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/web",
+    "scope": "Official/project reference for spctl commands"
+  },
+  {
+    "name": "stress-ng documentation",
+    "url": "https://github.com/ColinIanKing/stress-ng",
+    "scope": "stress-ng"
+  },
+  {
+    "name": "sysbench documentation",
+    "url": "https://github.com/akopytov/sysbench",
+    "scope": "sysbench"
+  },
+  {
+    "name": "GNU Parallel documentation",
+    "url": "https://www.gnu.org/software/parallel/",
+    "scope": "parallel"
+  },
+  {
+    "name": "inotifywait / inotifywatch documentation",
+    "url": "https://github.com/inotify-tools/inotify-tools/wiki",
+    "scope": "inotifywait"
+  },
+  {
+    "name": "entr documentation",
+    "url": "https://eradman.com/entrproject/",
+    "scope": "entr"
+  },
+  {
+    "name": "Nushell documentation",
+    "url": "https://www.nushell.sh/commands/",
+    "scope": "nu"
+  },
+  {
+    "name": "csvkit documentation",
+    "url": "https://csvkit.readthedocs.io/",
+    "scope": "csvcut"
+  },
+  {
+    "name": "Miller / mlr documentation",
+    "url": "https://miller.readthedocs.io/",
+    "scope": "mlr"
+  },
+  {
+    "name": "xsv documentation",
+    "url": "https://github.com/BurntSushi/xsv",
+    "scope": "xsv"
+  },
+  {
+    "name": "Grafana Tempo CLI documentation",
+    "url": "https://grafana.com/docs/tempo/latest/operations/tempo_cli/",
+    "scope": "tempo-cli"
+  },
+  {
+    "name": "VictoriaMetrics vmctl documentation",
+    "url": "https://docs.victoriametrics.com/victoriametrics/vmctl/",
+    "scope": "vmctl"
+  },
+  {
+    "name": "Apache Pulsar Admin CLI documentation",
+    "url": "https://pulsar.apache.org/docs/4.2.x/reference-cli-tools/",
+    "scope": "pulsar-admin"
+  },
+  {
+    "name": "Oracle Cloud Infrastructure CLI documentation",
+    "url": "https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/",
+    "scope": "oci"
+  },
+  {
+    "name": "Deno CLI documentation",
+    "url": "https://docs.deno.com/runtime/reference/cli/",
+    "scope": "deno"
+  },
+  {
+    "name": "NVIDIA Nsight Compute CLI documentation",
+    "url": "https://docs.nvidia.com/nsight-compute/NsightComputeCli/",
+    "scope": "ncu"
+  },
+  {
+    "name": "Valgrind documentation",
+    "url": "https://valgrind.org/docs/manual/manual.html",
+    "scope": "valgrind"
+  },
+  {
+    "name": "ltrace documentation",
+    "url": "https://man7.org/linux/man-pages/man1/ltrace.1.html",
+    "scope": "ltrace"
+  },
+  {
+    "name": "JDK Serviceability Tools documentation",
+    "url": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/",
+    "scope": "jcmd"
+  },
+  {
+    "name": "Apache Maven documentation",
+    "url": "https://maven.apache.org/ref/current/maven-embedder/cli.html",
+    "scope": "mvn"
+  },
+  {
+    "name": "oha HTTP load generator documentation",
+    "url": "https://github.com/hatoo/oha",
+    "scope": "oha"
+  },
+  {
+    "name": "Watchman documentation",
+    "url": "https://facebook.github.io/watchman/docs/cli-options",
+    "scope": "watchman"
+  },
+  {
+    "name": "aws-vault documentation",
+    "url": "https://github.com/99designs/aws-vault/blob/master/USAGE.md",
+    "scope": "aws-vault"
+  },
+  {
+    "name": "Kubecost kubectl-cost documentation",
+    "url": "https://github.com/kubecost/kubectl-cost",
+    "scope": "kubectl-cost"
+  },
+  {
+    "name": "Fly.io flyctl documentation",
+    "url": "https://fly.io/docs/flyctl/",
+    "scope": "flyctl"
+  },
+  {
+    "name": "Heroku CLI documentation",
+    "url": "https://devcenter.heroku.com/articles/heroku-cli-commands",
+    "scope": "heroku"
+  },
+  {
+    "name": "Rust Compiler documentation",
+    "url": "https://doc.rust-lang.org/stable/rustc/",
+    "scope": "rustc"
+  },
+  {
+    "name": "LLDB Debugger documentation",
+    "url": "https://lldb.llvm.org/use/tutorial.html",
+    "scope": "lldb"
+  },
+  {
+    "name": "Scalene Python Profiler documentation",
+    "url": "https://github.com/plasma-umass/scalene",
+    "scope": "scalene"
+  },
+  {
+    "name": "NVIDIA DCGM CLI documentation",
+    "url": "https://docs.nvidia.com/datacenter/dcgm/latest/reference/command-line-reference/dcgmi/index.html",
+    "scope": "dcgmi"
+  },
+  {
+    "name": "ClickHouse Client documentation",
+    "url": "https://clickhouse.com/integrations/clickhouse_client",
+    "scope": "clickhouse-client"
+  },
+  {
+    "name": "IBM AIX 7.3 lsvg",
+    "url": "https://www.ibm.com/docs/en/aix/7.3.0?topic=l-lsvg-command",
+    "scope": "Current AIX LVM command reference"
+  },
+  {
+    "name": "IBM AIX 7.3 chfs",
+    "url": "https://www.ibm.com/docs/en/aix/7.3.0?topic=c-chfs-command",
+    "scope": "Current AIX filesystem command reference"
+  },
+  {
+    "name": "Oracle Solaris 11.4 Zones",
+    "url": "https://docs.oracle.com/en/operating-systems/solaris/oracle-solaris/11.4/use-zones/commands-zone-administration-and-monitoring.html",
+    "scope": "Current Solaris Zones command families"
+  },
+  {
+    "name": "NetApp ONTAP CLI",
+    "url": "https://docs.netapp.com/us-en/ontap-cli/",
+    "scope": "Current ONTAP cluster CLI"
+  },
+  {
+    "name": "NetApp ONTAP LIF information",
+    "url": "https://docs.netapp.com/us-en/ontap/networking/display_lif_information.html",
+    "scope": "Current ONTAP network interface reference"
+  },
+  {
+    "name": "Broadcom ESXCLI",
+    "url": "https://developer.broadcom.com/tools/esxcli/latest/",
+    "scope": "Current ESXCLI tooling"
+  },
+  {
+    "name": "Red Hat sos report",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/getting_the_most_from_your_support_experience/generating-an-sos-report-for-technical-support_getting-the-most-from-your-support-experience",
+    "scope": "Current RHEL support evidence workflow"
+  },
+  {
+    "name": "Ubuntu Server documentation",
+    "url": "https://documentation.ubuntu.com/server/",
+    "scope": "Ubuntu Server administration"
+  },
+  {
+    "name": "Ubuntu 24.04 release notes",
+    "url": "https://documentation.ubuntu.com/release-notes/24.04/",
+    "scope": "Ubuntu 24.04 current platform behavior and Netplan"
+  },
+  {
+    "name": "SLES 15 SP7 Administration Guide",
+    "url": "https://documentation.suse.com/sles/15-SP7/",
+    "scope": "SLES administration and supportconfig"
+  },
+  {
+    "name": "OpenShift 4.19 Support",
+    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/support/",
+    "scope": "OpenShift support and must-gather"
+  }
+]

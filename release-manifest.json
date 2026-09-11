@@ -1,0 +1,42 @@
+{
+  "release": "2026.09.8",
+  "schemaVersion": 5,
+  "uiVersion": 5,
+  "sections": 604,
+  "commands": 8378,
+  "commandBlocks": 2384,
+  "libraries": 416,
+  "sources": 403,
+  "helpChunks": 14,
+  "helpCoverage": {
+    "totalCommands": 8378,
+    "exactHelp": 598,
+    "commandAwareHelp": 6873,
+    "libraryFallback": 0,
+    "genericFallback": 36,
+    "libraryMappedCommands": 8176,
+    "libraryCoveragePercent": 97.6,
+    "pipelineCommands": 399,
+    "compoundCommands": 409,
+    "unknownHelpButtons": 0,
+    "deadHelpButtons": 0,
+    "libraries": 416,
+    "riskCounts": {
+      "read-only": 7322,
+      "local-write": 165,
+      "remote-write": 384,
+      "destructive": 134,
+      "controlled-change": 237,
+      "disruptive": 96,
+      "security-sensitive": 40
+    }
+  },
+  "verifiedDate": "2026-09-07",
+  "baseline": "Engineering_Command_Operations_Reference_2026_09_NETLIFY_PRODUCTION.zip",
+  "releaseName": "Enterprise Platform Matrix Maximum Expansion",
+  "platformMatrix": {
+    "platforms": 10,
+    "tasks": 40,
+    "commandPlacements": 562
+  }
+}

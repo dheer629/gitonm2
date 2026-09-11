@@ -1,0 +1,11 @@
+# Engineering Command & Operations Reference
+User-agent: *
+Allow: /
+Disallow: /help/
+
+# Operator artifacts are denied at the server level as well.
+Disallow: /_headers
+Disallow: /_redirects
+Disallow: /netlify.toml
+
+Sitemap: https://REPLACE-WITH-YOUR-DOMAIN/sitemap.xml

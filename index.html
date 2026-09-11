@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111d">
+<meta name="description" content="Engineering Command & Operations Encyclopedia — Professional Operations command atlas with DevOps Sentinel, runbooks, risk review and copy-ready workflows.">
+<meta name="author" content="Dheeraj Vishwakarma">
+<meta property="og:title" content="Engineering Command & Operations Encyclopedia — Professional Operations">
+<meta property="og:description" content="Cloud-native command intelligence, runbooks and DevOps Sentinel workflows curated by Dheeraj Vishwakarma.">
+<meta property="og:type" content="website">
+<title>Engineering Command & Operations Encyclopedia — Professional Operations</title>
+<meta name="color-scheme" content="dark light">
+<meta name="robots" content="index,follow">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Engineering Command &amp; Operations Reference">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Engineering Command &amp; Operations Reference">
+<meta name="twitter:description" content="604 sections, 8,378 sourced commands, 416 libraries, 10 platforms. Offline-capable operations reference.">
+<meta name="twitter:image" content="og-card.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EngOps Reference">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="canonical" href="./">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <button class="iconbtn mobile-only" id="menuBtn" aria-label="Open navigation">☰</button>
+  <div class="brand">
+    <span class="brandmark">CN</span>
+    <div class="brandtext">
+      <b>Engineering Command & Operations Encyclopedia</b>
+      <small>LINUX • KUBERNETES • CLOUD NATIVE • AI • DATA • SECURITY • PLATFORM OPERATIONS</small>
+    </div>
+  </div>
+
+  <div class="global-search">
+    <span class="search-icon">⌕</span>
+    <input id="q" type="search" placeholder="Search commands, tools, flags, libraries, incidents…" autocomplete="off" aria-controls="commandPalette" aria-expanded="false">
+    <kbd>⌘K</kbd>
+    <div id="commandPalette" class="command-palette" hidden role="listbox" aria-label="Command palette"></div>
+  </div>
+
+  <div class="top-actions" id="topActions">
+    <button id="homeTop" class="topbtn">HOME</button>
+    <button id="favMode" class="topbtn favorite-top">★ <span id="favCount">0</span></button>
+    <div class="top-menu">
+      <button class="topbtn top-menu-toggle" data-top-menu="explore" aria-expanded="false">EXPLORE ▾</button>
+      <div class="top-menu-popover" data-top-menu-panel="explore" hidden>
+        <button id="quickRefBtn">Quick Reference</button>
+        <button id="mostUsedBtn">Most Used</button>
+        <button id="azIndexBtn">A–Z Tool Index</button>
+        <button id="platformMatrixBtn">Platform Matrix</button>
+        <button id="librariesBtn">Libraries</button>
+        <button id="helpBtn">Help Reference</button>
+        <button id="tipsBtn">Operational Guidance</button>
+        <button id="sourcesBtn">Sources</button>
+      </div>
+    </div>
+    <div class="top-menu">
+      <button class="topbtn top-menu-toggle" data-top-menu="operations" aria-expanded="false">OPERATIONS ▾</button>
+      <div class="top-menu-popover" data-top-menu-panel="operations" hidden>
+        <button id="runbookBtn">Runbooks</button>
+        <button id="riskTopBtn">Risk Review</button>
+        <button id="sentinelTopBtn">DevOps Sentinel</button>
+        <button id="diagnosticsTopBtn">Diagnostics</button>
+      </div>
+    </div>
+    <div class="top-menu">
+      <button class="topbtn top-menu-toggle" data-top-menu="workspace" aria-expanded="false">WORKSPACE ▾</button>
+      <div class="top-menu-popover" data-top-menu-panel="workspace" hidden>
+        <button id="layoutBtn">Layout & Panels</button>
+        <button id="printCurrentBtn">Print / Save PDF</button>
+        <button id="editModulesTopBtn">Edit Home Modules</button>
+        <button id="themeBtn" class="theme-studio-btn">Themes & Density</button>
+      </div>
+    </div>
+    <button id="authorTopBtn" class="topbtn author-top-btn">AUTHOR</button>
+  </div>
+</header>
+
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <div class="pane-title-row"><div><span class="eyebrow">NAVIGATION</span><b>Workspace Tree</b></div>
+      <div class="pane-size-actions" aria-label="Navigation pane size controls">
+        <button id="navNarrowBtn" class="pane-icon-btn" title="Narrow navigation" aria-label="Narrow navigation">−</button>
+        <button id="navWidenBtn" class="pane-icon-btn" title="Widen navigation" aria-label="Widen navigation">+</button>
+        <button id="navCollapseBtn" class="pane-icon-btn" aria-label="Collapse navigation">◀</button>
+      </div></div>
+      <div class="mini-stats">
+        <div><b id="secCount"></b><span>Sections</span></div>
+        <div><b id="lineCount"></b><span>Commands</span></div>
+        <div><b id="blockCount"></b><span>Blocks</span></div>
+      </div>
+      <div class="tree-mode-tabs" id="treeModeTabs">
+        <button data-tree-mode="commands" class="active">Commands</button>
+        <button data-tree-mode="hierarchy">Hierarchy</button>
+        <button data-tree-mode="libraries">Libraries</button>
+        <button data-tree-mode="help">Help</button>
+        <button data-tree-mode="runbooks">Runbooks</button>
+        <button data-tree-mode="favorites">Favorites</button>
+      </div>
+      <label class="field-label">SCOPE</label>
+      <select id="domain"></select>
+      <div class="tree-search-wrap"><span>⌕</span><input id="treeFilter" type="search" placeholder="Filter navigation tree…" autocomplete="off"></div>
+      <div class="tree-toolbar">
+        <button id="treeExpandAll">Expand all</button>
+        <button id="treeCollapseAll">Collapse</button>
+        <button id="treeExpandCurrent">Current</button>
+      </div>
+      <div class="quick-filters">
+        <button id="homeBtn">Home</button>
+        <button id="dangerOnly">Risk</button>
+        <button id="sentinelOnly">Sentinel</button>
+      </div>
+    </div>
+
+    <nav id="nav" class="section-nav"></nav>
+
+    <div class="sidebar-foot">
+      <span class="status-dot"></span>
+      <div>
+        <b>Engineering Operations Reference</b>
+        <small>Cloud Native • GitOps • Sentinel</small>
+      </div>
+    </div>
+  </aside>
+  <div id="leftSplitter" class="workspace-splitter left-splitter" role="separator" aria-orientation="vertical" tabindex="0" aria-valuemin="220" aria-valuemax="600" aria-valuenow="330" aria-label="Resize navigation pane" title="Drag horizontally to resize • Double-click to reset • Enter to collapse/expand"><span></span></div>
+
+  <main id="main" class="main">
+    <section class="hero home-only" id="heroSection" data-home-module="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">PRODUCTION ENGINEERING COMMAND & KNOWLEDGE LIBRARY</span>
+        <h1>Engineering Operations Reference</h1>
+        <p>Command intelligence, contextual help, technical libraries, runbooks and operational guidance across Kubernetes, Linux, cloud-native platforms, AI, data engineering and defensive security.</p>
+        
+        <button class="hero-author-chip" id="heroAuthorChip" type="button">
+          <span class="author-avatar author-avatar-small">DV</span>
+          <span class="hero-author-copy">
+            <b>Dheeraj Vishwakarma</b>
+            <small>Senior Solution Architect • Cloud Native • DevOps/GitOps</small>
+          </span>
+          <span class="hero-author-arrow">↗</span>
+        </button>
+        <div class="hero-stats">
+          <span><b id="heroSections"></b> sections</span>
+          <span><b id="heroLines"></b> reference lines</span>
+          <span><b id="heroSources"></b> source references</span>
+          <span><b id="heroRunbooks"></b> runbooks</span>
+        </div>
+      </div>
+
+      <div class="operator-card">
+        <div class="operator-card-title">SMART COMMAND BUILDER</div>
+        <div class="builder-status-line"><span class="builder-status-dot"></span><span>Common defaults for command blocks</span></div>
+        <label>Context<input id="phContext" placeholder="prod-cluster" autocomplete="off"></label>
+        <label>Namespace<input id="phNs" placeholder="my-namespace" autocomplete="off"></label>
+        <label>Pod / Name<input id="phName" placeholder="my-pod" autocomplete="off"></label>
+        <button id="applyPlaceholders">Apply common defaults</button>
+        <button id="openSmartBuilder" class="builder-secondary">Open Smart Builder</button>
+        <small>Each command block detects its own placeholders. Click <b>Build</b> for block-specific options.</small>
+      </div>
+    </section>
+
+    <section class="home-module-toolbar home-only" id="homeModuleToolbar"><div><span class="eyebrow">WORKSPACE OVERVIEW</span><b>Operational modules</b></div><button id="editModulesBtn">Arrange modules</button></section>
+
+    <section class="dashboard-cards home-only" id="dashboardCards" data-home-module="metrics">
+      <article class="metric-card" data-home="tools" data-dashboard-module="tools" role="button" tabindex="0" aria-label="Open tools module"><span>TOOLS</span><b id="toolMetric"></b><small>Indexed command families</small></article>
+      <article class="metric-card" data-home="runbooks" data-dashboard-module="runbooks" role="button" tabindex="0" aria-label="Open runbooks module"><span>RUNBOOKS</span><b id="runbookMetric"></b><small>Incident playbooks</small></article>
+      <article class="metric-card" data-home="risk" data-dashboard-module="risk" role="button" tabindex="0" aria-label="Open risk module"><span>RISK REVIEW</span><b id="riskMetric"></b><small>Impacting command blocks</small></article>
+      <article class="metric-card sentinel-card" data-home="sentinel" data-dashboard-module="sentinel" role="button" tabindex="0" aria-label="Open sentinel module"><span>DEVOPS SENTINEL</span><b id="sentinelMetric"></b><small>Sentinel functional commands</small></article>
+      <article class="metric-card library-card" data-home="libraries" data-dashboard-module="libraries" role="button" tabindex="0" aria-label="Open libraries module"><span>LIBRARIES</span><b id="libraryMetric"></b><small>Linked tool & framework guides</small></article>
+      <article class="metric-card" data-home="help" data-dashboard-module="help" role="button" tabindex="0" aria-label="Open help module"><span>HELP REFERENCE</span><b id="helpMetric"></b><small>Syntax, options and discovery</small></article>
+      <article class="metric-card" data-home="tips" data-dashboard-module="tips" role="button" tabindex="0" aria-label="Open tips module"><span>GUIDANCE</span><b id="tipsMetric"></b><small>Operational tips and expert techniques</small></article>
+      <article class="metric-card matrix-card" data-home="platform-matrix" data-dashboard-module="platform-matrix" role="button" tabindex="0" aria-label="Open platform matrix module"><span>PLATFORM MATRIX</span><b id="platformMatrixMetric"></b><small>Cross-platform administration tasks</small></article>
+    </section>
+
+    <section class="commandbar" id="commandbar">
+      <div class="commandbar-left">
+        <button id="encyclopediaHome" class="cmdtab active-home">Encyclopedia</button>
+        <button class="mode cmdtab active" data-mode="library">Library</button>
+        <button class="mode cmdtab" data-mode="favorites">Favorites</button>
+        <button class="mode cmdtab" data-mode="danger">Risk Review</button>
+        <button class="mode cmdtab" data-mode="recent">Recent</button>
+      </div>
+      <div class="commandbar-right">
+        <button id="quickRefIndexBtn">Quick Reference</button>
+        <button id="toolIndexBtn">A–Z Tool Index</button>
+        <button id="platformMatrixIndexBtn">Platform Matrix</button>
+        <button id="libraryIndexBtn">Library Explorer</button>
+        <button id="helpIndexBtn">Help Reference</button>
+        <button id="hierarchyIndexBtn">Command Hierarchy</button>
+        <button id="tipsIndexBtn">Operational Guidance</button>
+        <button id="exportTxt">Export TXT</button>
+        <button id="exportJson">Export JSON</button>
+      </div>
+    </section>
+
+    <section class="workspace-toolbar" id="workspaceToolbar">
+      <div class="workspace-breadcrumb" id="workspaceBreadcrumb">Home</div>
+      <div class="workspace-view-actions">
+        <button id="viewBack" title="Back in workspace" aria-label="Back in workspace">←</button>
+        <button id="viewForward" title="Forward in workspace" aria-label="Forward in workspace">→</button>
+        <div class="view-filter-wrap"><span>⌕</span><input id="viewFilter" type="search" placeholder="Filter current view…"></div>
+        <button id="wrapToggle" title="Command wrapping mode">Wrap: Auto</button>
+      </div>
+    </section>
+
+    <div id="summary" class="summary" hidden></div>
+
+    <div class="content-layout">
+      <article id="panel" class="content-panel"></article>
+      <aside class="right-rail">
+        <div class="rail-card sticky">
+          <h4>ON THIS PAGE</h4>
+          <nav id="toc"></nav>
+          <hr>
+          <h4>OPERATOR GUARDRAILS</h4>
+          <p>Verify context, namespace, target and impact before any change. Risk-marked commands require deliberate review.</p>
+          <button id="copySection" class="primary">Copy section</button>
+          <button id="openSource" class="secondary">Official/source reference</button>
+          <hr>
+          <h4>KEYBOARD</h4>
+          <dl>
+            <dt>/</dt><dd>Search</dd>
+            <dt>J / K</dt><dd>Next / previous section</dd>
+            <dt>C</dt><dd>Copy section</dd>
+            <dt>F</dt><dd>Favorites</dd>
+            <dt>H</dt><dd>Help focused command</dd>
+            <dt>B</dt><dd>Build focused command</dd>
+            <dt>C</dt><dd>Copy focused command / section</dd>
+            <dt>L</dt><dd>Library for focused command</dd>
+            <dt>?</dt><dd>Shortcuts</dd>
+          </dl>
+        </div>
+      </aside>
+    </div>
+  
+    <section class="author-signature home-only" data-home-module="author">
+      <div class="author-signature-avatar">DV</div>
+      <div class="author-signature-copy">
+        <span class="eyebrow">CREATED & CURATED BY</span>
+        <h3>Dheeraj Vishwakarma</h3>
+        <p>Senior Solution Architect • Cloud Native • Kubernetes • DevOps/GitOps • Automation • AI/ML</p>
+      </div>
+      <button id="authorFooterBtn" class="author-signature-btn">Author profile</button>
+    </section>
+  </main>
+  <div id="rightSplitter" class="workspace-splitter right-splitter" role="separator" aria-orientation="vertical" tabindex="0" aria-valuemin="320" aria-valuemax="760" aria-valuenow="420" aria-label="Resize context pane" title="Drag horizontally to resize • Double-click to reset • Enter to collapse/expand"><span></span></div>
+  <aside id="contextPane" class="context-pane" aria-label="Context workspace">
+    <header class="context-pane-header">
+      <div><span class="eyebrow">CONTEXT WORKSPACE</span><b id="contextTitle">Current View</b></div>
+      <div class="context-pane-actions">
+        <button id="contextNarrowBtn" class="pane-icon-btn" title="Narrow context pane" aria-label="Narrow context pane">−</button>
+        <button id="contextWidenBtn" class="pane-icon-btn" title="Widen context pane" aria-label="Widen context pane">+</button>
+        <button id="contextPinBtn" class="pane-icon-btn" title="Pin contextual mode" aria-pressed="false">⌖</button>
+        <button id="contextCollapseBtn" class="pane-icon-btn" aria-label="Collapse context pane">▶</button>
+      </div>
+    </header>
+    <nav class="context-tabs" id="contextTabs" aria-label="Context views">
+      <button data-context-mode="overview" class="active">Overview</button>
+      <button data-context-mode="help">Help</button>
+      <button data-context-mode="builder">Builder</button>
+      <button data-context-mode="toc">Contents</button>
+      <button data-context-mode="diagnostics">Diagnostics</button>
+    </nav>
+    <div id="contextBody" class="context-body"></div>
+    <footer class="context-footer"><span id="contextStatus">Workspace ready</span><button id="contextSettingsBtn">Layout</button></footer>
+  </aside>
+</div>
+
+
+<div id="builderModal" class="builder-modal" hidden>
+  <div class="builder-modal-card" role="dialog" aria-modal="true" aria-labelledby="builderModalTitle">
+    <header class="builder-modal-header">
+      <div><span class="eyebrow">CONTEXT-AWARE COMMAND BUILDER</span><h2 id="builderModalTitle">Build command</h2><p id="builderModalSubtitle">Only options used by this command block are shown.</p></div>
+      <button id="builderModalClose" class="builder-close" aria-label="Close command builder">×</button>
+    </header>
+    <div class="builder-modal-body">
+      <section class="builder-template-panel"><div class="builder-panel-head"><b>COMMAND TEMPLATE</b><span id="builderTemplateMeta"></span></div><pre id="builderTemplate" class="builder-template"></pre></section>
+      <section><div class="builder-panel-head"><b>RELEVANT OPTIONS</b><span id="builderFieldCount"></span></div><div id="builderFields" class="builder-fields"></div></section>
+      <section class="builder-validation"><div class="builder-panel-head"><b>VALIDATION</b><span id="builderValidationStatus" class="validation-pill">READY</span></div><div id="builderValidationMessages" class="validation-messages"></div></section>
+      <section class="builder-preview-panel"><div class="builder-panel-head"><b>BUILT COMMAND</b><button id="builderCopyPreview" class="mini-action">Copy</button></div><pre id="builderPreview" class="builder-preview"></pre></section>
+    </div>
+    <footer class="builder-modal-footer"><button id="builderReset" class="builder-ghost">Reset block</button><button id="builderCopy" class="builder-primary">Copy validated command</button></footer>
+  </div>
+</div>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card">
+    <header><h2 id="modalTitle"></h2><button id="modalClose">×</button></header>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+
+<!-- Advanced Theme Studio -->
+<div class="theme-backdrop" id="themeBackdrop" hidden></div>
+<aside class="theme-drawer" id="themeDrawer" aria-hidden="true" aria-label="Theme Studio">
+  <header class="theme-drawer-header">
+    <div>
+      <span class="eyebrow">ADVANCED</span>
+      <h2>Theme Studio</h2>
+      <p>Choose a light workspace optimized for long command-reading sessions.</p>
+    </div>
+    <button id="themeClose" class="theme-close" aria-label="Close Theme Studio">×</button>
+  </header>
+
+  <div class="theme-toolbar">
+    <div>
+      <b>10 LIGHT THEMES</b>
+      <span>Your selection is saved automatically.</span>
+    </div>
+    <button id="themeReset" class="theme-reset">Default</button>
+  </div>
+
+  <div class="theme-grid" id="themeGrid">
+    <button class="theme-card" data-theme-choice="arctic">
+      <span class="theme-preview preview-arctic"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Arctic Cloud</b><small>Crisp white + Kubernetes blue</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="paper">
+      <span class="theme-preview preview-paper"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Paper Reference</b><small>Warm paper for documentation</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="mint">
+      <span class="theme-preview preview-mint"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Mint Ops</b><small>Soft green operations workspace</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="azure">
+      <span class="theme-preview preview-azure"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Azure Air</b><small>Cool blue enterprise console</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="lavender">
+      <span class="theme-preview preview-lavender"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Lavender Grid</b><small>Modern violet technical workspace</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="sand">
+      <span class="theme-preview preview-sand"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Sandstone</b><small>Low-glare warm neutral theme</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="graphite">
+      <span class="theme-preview preview-graphite"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Graphite Light</b><small>Neutral engineering workstation</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="rose">
+      <span class="theme-preview preview-rose"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Rose Quartz</b><small>Soft rose with technical contrast</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="solar">
+      <span class="theme-preview preview-solar"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Solar Day</b><small>Solarized-inspired operator view</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+
+    <button class="theme-card" data-theme-choice="cloud">
+      <span class="theme-preview preview-cloud"><i></i><i></i><i></i></span>
+      <span class="theme-card-copy"><b>Cloud Glass</b><small>Premium translucent light UI</small></span>
+      <span class="theme-check">✓</span>
+    </button>
+  </div>
+
+  <section class="theme-experience">
+    <div>
+      <b>READING COMFORT</b>
+      <span>All themes preserve command contrast, risk markers and syntax visibility.</span>
+    </div>
+    <label class="density-control">
+      <span>Density</span>
+      <select id="densitySelect">
+        <option value="comfortable">Comfortable</option>
+        <option value="compact">Compact</option>
+        <option value="spacious">Spacious</option>
+      </select>
+    </label>
+  </section>
+
+  <div class="theme-current">
+    <span>ACTIVE THEME</span>
+    <b id="activeThemeName">Arctic Cloud</b>
+  </div>
+</aside>
+
+<!-- Advanced floating bubble dock -->
+<div class="bubble-dock" id="bubbleDock" aria-label="Quick actions">
+  <div class="bubble-actions" id="bubbleActions" aria-hidden="true">
+    <button class="bubble-action" id="bubbleAuthor" title="About the author">
+      <span>DV</span><label>Author</label>
+    </button>
+    <button class="bubble-action" id="bubbleSearch" title="Search commands">
+      <span>⌕</span><label>Search</label>
+    </button>
+    <button class="bubble-action" id="bubbleRunbooks" title="Incident runbooks">
+      <span>R</span><label>Runbooks</label>
+    </button>
+    <button class="bubble-action" id="bubbleSentinel" title="DevOps Sentinel">
+      <span>S</span><label>Sentinel</label>
+    </button>
+    <button class="bubble-action" id="bubbleTop" title="Back to top">
+      <span>↑</span><label>Top</label>
+    </button>
+  </div>
+  <button class="bubble-main" id="bubbleMain" aria-expanded="false" aria-label="Open quick actions">
+    <span class="bubble-main-ring"></span>
+    <span class="bubble-main-initials">DV</span>
+  </button>
+</div>
+
+<!-- Professional author drawer -->
+<div class="author-backdrop" id="authorBackdrop" hidden></div>
+<aside class="author-drawer" id="authorDrawer" aria-hidden="true" aria-label="About the author">
+  <header class="author-drawer-header">
+    <div>
+      <span class="eyebrow">ABOUT THE AUTHOR</span>
+      <h2>Dheeraj Vishwakarma</h2>
+    </div>
+    <button id="authorClose" class="author-close" aria-label="Close author profile">×</button>
+  </header>
+
+  <div class="author-profile-hero">
+    <div class="author-avatar author-avatar-large">DV</div>
+    <div>
+      <h3>Senior Solution Architect</h3>
+      <p>Cloud Native • OSS/BSS • DevOps/GitOps</p>
+    </div>
+  </div>
+
+  <p class="author-summary">
+    Senior technology architect focused on telecommunications transformation, cloud-native engineering,
+    OSS/BSS platforms, Kubernetes, DevOps/GitOps, Linux, automation, and applied AI/ML.
+  </p>
+
+  <div class="author-stat-grid">
+    <div><b>Cloud Native</b><span>Architecture &amp; operations</span></div>
+    <div><b>OSS/BSS</b><span>Telecom domain expertise</span></div>
+  </div>
+
+  <section class="author-drawer-section">
+    <h4>FOCUS AREAS</h4>
+    <div class="author-tags">
+      <span>Telecommunications</span>
+      <span>OSS/BSS</span>
+      <span>Cloud Native</span>
+      <span>Kubernetes</span>
+      <span>AI / ML</span>
+      <span>Linux</span>
+      <span>Python</span>
+      <span>AWS</span>
+    </div>
+  </section>
+
+  <section class="author-drawer-section">
+    <h4>SELECTED CREDENTIALS</h4>
+    <ul class="author-list">
+      <li>Kubernetes: Cloud Native Ecosystem</li>
+      <li>Learning Kubernetes</li>
+      <li>Python Essential Training</li>
+      <li>Red Hat Linux System Administrator</li>
+      <li>AWS Fundamentals: Going Cloud-Native</li>
+    </ul>
+  </section>
+
+  <div class="author-actions">
+    <a class="author-linkedin-btn"
+       href="https://www.linkedin.com/in/dheeraj-vishwakarma-61350918/"
+       target="_blank" rel="noopener noreferrer">
+      View LinkedIn Profile ↗
+    </a>
+    <button id="authorCopyLink" class="author-secondary-btn">Copy profile link</button>
+  </div>
+
+  <div class="author-source-note">
+    Professional profile information is presented in a concise public-sharing format.
+  </div>
+</aside>
+
+
+<div class="command-help-backdrop" id="commandHelpBackdrop" hidden></div>
+<aside class="command-help-drawer" id="commandHelpDrawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Contextual command help">
+  <header class="command-help-header">
+    <div>
+      <span class="eyebrow" id="commandHelpEyebrow">COMMAND HELP</span>
+      <h2 id="commandHelpTitle">Command help</h2>
+      <p id="commandHelpSubtitle">Contextual syntax, options and operational guidance.</p>
+    </div>
+    <button id="commandHelpClose" class="command-help-close" aria-label="Close command help">×</button>
+  </header>
+  <div id="commandHelpBody" class="command-help-body"></div>
+</aside>
+<div id="quickHelp" class="quick-help" hidden role="tooltip" aria-hidden="true"></div>
+
+<div id="toast" class="toast"></div>
+
+<script src="data.js"></script>
+<script src="help-data.js"></script>
+<script src="platform-matrix.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
